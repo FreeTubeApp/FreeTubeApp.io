@@ -146,7 +146,7 @@ $downloadDebArm = $releaseInfo[0]->assets[11]->browser_download_url;
       <a name='contact'></a>
       <h1 class='center'>Contact Information</h1>
       <br />
-      <p class='textBlurb center'>Have an issue or suggestion?  Please make a thread on our GitHub page so we can track it.  You can also ask using one of these methods:</p>
+      <p class='textBlurb center'>Have an issue or suggestion?  Please make a thread on our <a href='https://github.com/FreeTubeApp/FreeTube/issues'>GitHub</a> page so we can track it.  You can also ask using one of these methods:</p>
       <br />
       <a href='mailto:freetubeapp@protonmail.com'><p class='textBlurb'><i class='fas fa-envelope'></i>&nbsp;&nbsp;FreeTubeApp@protonmail.com</p></a>
       <a href='https://riot.im/app/#/room/#freetube:matrix.org'><p class='textBlurb'><i class='fas fa-comments'></i>&nbsp;&nbsp;FreeTube on Matrix</p></a>
