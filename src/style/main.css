@@ -195,4 +195,12 @@ box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
   .navigationText {
     display: none;
   }
+
+  .bannerImage {
+    width: 95%;
+  }
+
+  #footerNav {
+    width: 100%;
+  }
 }
