@@ -5,7 +5,7 @@
   <p>
     This privacy policy is to explain what information is collected by visitors of the FreeTube website (<a href='https://freetubeapp.io'>FreeTubeApp.io</a>) and how it is used.  This privacy policy may be changed or updated at any point in the future.
     <br /><br />
-    Your privacy is very important, which is why this site runs without any JavaScript and does not use Google Analytics.  This website uses a self hosted instance of <a href='https://matomo.org/'>Matomo</a> to track visitor statistics.  The information is anonymous and cannot be used to identify you.  You can opt-out of these analytics by disabling JavaScript on your browser.
+    Your privacy is very important, which is why this site runs without any JavaScript and does not use Google Analytics.  This website uses a self hosted instance of <a href='https://matomo.org/'>Matomo</a> to track visitor statistics.  This information is anonymous and cannot be used to identify you.  The amount of data collected are as follows: an anonymized IP address, the used web browser, the used operating system, the type of device used, and outcoming / incoming links.  An anonymized IP is defined as an IP address that has the last 2 points imitted.  For example, if your IP address was 192.168.16.31, your IP will be logged as 192.168.0.0.  You can opt-out of these analytics by disabling JavaScript on your browser or by enabling the Do Not Track setting within your web browser.
     <br /><br />
     This information will never be sent out or sold to third parties.
   </p>
