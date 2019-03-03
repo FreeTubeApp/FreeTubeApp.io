@@ -177,12 +177,6 @@ a {
   text-align: center;
 }
 
-@media only screen and (max-width: 1600px) {
-  .navigation li {
-    width: 100px;
-  }
-}
-
 @media only screen and (max-width: 1200px) {
   .features {
     width: 250px;
