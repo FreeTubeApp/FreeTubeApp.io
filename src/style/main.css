@@ -24,8 +24,8 @@ a {
   top: 0px;
   right: 0px;
   -webkit-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
 }
 
 .headerIcon {
@@ -100,7 +100,7 @@ box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
 
 .features {
   margin: 0 auto;
-  width: 70%;
+  width: 1060px;
 }
 
 .feature {
@@ -183,6 +183,12 @@ box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .features {
+    width: 250px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .title {
     width: 90%;
@@ -198,6 +204,14 @@ box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
 
   .bannerImage {
     width: 95%;
+  }
+
+  .features {
+    width: 100%;
+  }
+
+  .feature {
+    width: 100%;
   }
 
   #footerNav {
