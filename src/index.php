@@ -137,7 +137,7 @@ $downloadDebArm = $releaseInfo[0]->assets[11]->browser_download_url;
           <br /><br />
           <a href='https://flathub.org/apps/details/io.freetubeapp.FreeTube'><div class='largeButton'>Flathub</div></a>
           <br /><br />
-          <a href='https://aur.archlinux.org/packages/freetube/'><div class='largeButton'>Arch User Repository</div></a>
+          <a href='https://aur.archlinux.org/packages/freetube-bin/'><div class='largeButton'>Arch User Repository</div></a>
         </div>
       </div>
       <br /><br />
@@ -152,7 +152,7 @@ $downloadDebArm = $releaseInfo[0]->assets[11]->browser_download_url;
       <br />
       <a href='mailto:freetubeapp@protonmail.com'><p class='textBlurb center'><i class='fas fa-envelope'></i>&nbsp;&nbsp;FreeTubeApp@protonmail.com</p></a>
       <br />
-      <a href='https://riot.im/app/#/room/#freetube:matrix.org'><p class='textBlurb center'><i class='fas fa-comments'></i>&nbsp;&nbsp;FreeTube on Matrix</p></a>
+      <a href='https://riot.im/app/#/group/+freetube:matrix.org'><p class='textBlurb center'><i class='fas fa-comments'></i>&nbsp;&nbsp;FreeTube on Matrix</p></a>
       <br />
       <p class='textBlurb center'>If you like FreeTube, consider supporting the project by donating on <a href='https://liberapay.com/FreeTube'>Liberapay</a> or by donating to our Bitcoin address:</p>
       <br />
