@@ -15,18 +15,18 @@ curl_close($curl);
 
 $currentRelease = $releaseInfo[0]->name;
 
-$downloadAppImage = $releaseInfo[0]->assets[0]->browser_download_url;
-$downloadDebx86 = $releaseInfo[0]->assets[1]->browser_download_url;
-$downloadDebArm = $releaseInfo[0]->assets[2]->browser_download_url;
-$downloadRpmArm = $releaseInfo[0]->assets[3]->browser_download_url;
-$downloadRpmx86 = $releaseInfo[0]->assets[4]->browser_download_url;
-$downloadMacZip = $releaseInfo[0]->assets[5]->browser_download_url;
-$downloadWinZip = $releaseInfo[0]->assets[6]->browser_download_url;
-$downloadWinExe = $releaseInfo[0]->assets[7]->browser_download_url;
-$downloadLinuxTarx86 = $releaseInfo[0]->assets[8]->browser_download_url;
-$downloadLinuxZipx86 = $releaseInfo[0]->assets[9]->browser_download_url;
-$downloadLinuxZipArm = $releaseInfo[0]->assets[10]->browser_download_url;
-$downloadLinuxTarArm = $releaseInfo[0]->assets[11]->browser_download_url;
+$downloadAppImage = $releaseInfo[0]->assets[8]->browser_download_url;
+$downloadDebx86 = $releaseInfo[0]->assets[10]->browser_download_url;
+$downloadDebArm = $releaseInfo[0]->assets[11]->browser_download_url;
+$downloadRpmArm = $releaseInfo[0]->assets[6]->browser_download_url;
+$downloadRpmx86 = $releaseInfo[0]->assets[7]->browser_download_url;
+$downloadMacZip = $releaseInfo[0]->assets[4]->browser_download_url;
+$downloadWinZip = $releaseInfo[0]->assets[5]->browser_download_url;
+$downloadWinExe = $releaseInfo[0]->assets[9]->browser_download_url;
+$downloadLinuxTarx86 = $releaseInfo[0]->assets[2]->browser_download_url;
+$downloadLinuxZipx86 = $releaseInfo[0]->assets[3]->browser_download_url;
+$downloadLinuxZipArm = $releaseInfo[0]->assets[1]->browser_download_url;
+$downloadLinuxTarArm = $releaseInfo[0]->assets[0]->browser_download_url;
 ?>
     <p class='center'><img src='images/FreeTube1.png' class='bannerImage' /></p>
     <br /><br />
