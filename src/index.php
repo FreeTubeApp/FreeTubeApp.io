@@ -1,7 +1,7 @@
 <?php
 require('includes/header.php');
 
-$url = "https://api.github.com/repos/freetubeapp/freetube/releases";
+/*$url = "https://api.github.com/repos/freetubeapp/freetube/releases";
 
 $curl = curl_init();
 
@@ -26,7 +26,20 @@ $downloadWinExe = $releaseInfo[0]->assets[9]->browser_download_url;
 $downloadLinuxTarx86 = $releaseInfo[0]->assets[2]->browser_download_url;
 $downloadLinuxZipx86 = $releaseInfo[0]->assets[3]->browser_download_url;
 $downloadLinuxZipArm = $releaseInfo[0]->assets[1]->browser_download_url;
-$downloadLinuxTarArm = $releaseInfo[0]->assets[0]->browser_download_url;
+$downloadLinuxTarArm = $releaseInfo[0]->assets[0]->browser_download_url;*/
+
+$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube.0.6.0.AppImage";
+$downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube_0.6.0_amd64.deb";
+$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube_0.6.0_arm64.deb";
+$downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0.arm64.rpm";
+$downloadRpmx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0.x86_64.rpm";
+$downloadMacZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-mac.zip";
+$downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-win.zip";
+$downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube.Setup.0.6.0.exe";
+$downloadLinuxTarx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux.tar.xz";
+$downloadLinuxZipx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux.zip";
+$downloadLinuxZipArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux-arm64.zip";
+$downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube0.6.0-linux-arm64.tar.xz";
 ?>
     <p class='center'><img src='images/FreeTube1.png' class='bannerImage' /></p>
     <br /><br />
