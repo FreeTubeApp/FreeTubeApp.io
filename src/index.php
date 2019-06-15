@@ -93,7 +93,7 @@ $downloadLinuxTarArm = $releaseInfo[0]->assets[11]->browser_download_url;
       <h1 class='center'>Download FreeTube</h1>
       <h3 class='center'>Current: <?php echo $currentRelease ?> </h3>
       <br />
-      <p class='textBlurb center'>FreeTube is free to download thanks to it's open source nature.</p>
+      <p class='textBlurb center'>FreeTube is free to download thanks to its open source nature.</p>
       <br /><br />
       <div class='features'>
         <div class='feature download'>
