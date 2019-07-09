@@ -98,7 +98,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
       <h1 class='center'>Download FreeTube</h1>
       <h3 class='center'>Current: <?php echo $currentRelease ?> </h3>
       <br />
-      <p class='textBlurb center'><?php echo $fullTagName; echo $versionNumber; ?>FreeTube is free to download thanks to its open source nature.</p>
+      <p class='textBlurb center'>FreeTube is free to download thanks to its open source nature.</p>
       <br /><br />
       <div class='features'>
         <div class='feature download'>
