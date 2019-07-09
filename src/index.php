@@ -1,7 +1,7 @@
 <?php
 require('includes/header.php');
 
-/*$url = "https://api.github.com/repos/freetubeapp/freetube/releases";
+$url = "https://api.github.com/repos/freetubeapp/freetube/releases";
 
 $curl = curl_init();
 
@@ -15,31 +15,23 @@ curl_close($curl);
 
 $currentRelease = $releaseInfo[0]->name;
 
-$downloadAppImage = $releaseInfo[0]->assets[8]->browser_download_url;
-$downloadDebx86 = $releaseInfo[0]->assets[10]->browser_download_url;
-$downloadDebArm = $releaseInfo[0]->assets[11]->browser_download_url;
-$downloadRpmArm = $releaseInfo[0]->assets[6]->browser_download_url;
-$downloadRpmx86 = $releaseInfo[0]->assets[7]->browser_download_url;
-$downloadMacZip = $releaseInfo[0]->assets[4]->browser_download_url;
-$downloadWinZip = $releaseInfo[0]->assets[5]->browser_download_url;
-$downloadWinExe = $releaseInfo[0]->assets[9]->browser_download_url;
-$downloadLinuxTarx86 = $releaseInfo[0]->assets[2]->browser_download_url;
-$downloadLinuxZipx86 = $releaseInfo[0]->assets[3]->browser_download_url;
-$downloadLinuxZipArm = $releaseInfo[0]->assets[1]->browser_download_url;
-$downloadLinuxTarArm = $releaseInfo[0]->assets[0]->browser_download_url;*/
+$fullTagName = $releaseInfo[0]->tag_name;
 
-$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube.0.6.0.AppImage";
-$downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube_0.6.0_amd64.deb";
-$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube_0.6.0_arm64.deb";
-$downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0.arm64.rpm";
-$downloadRpmx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0.x86_64.rpm";
-$downloadMacZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-mac.zip";
-$downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-win.zip";
-$downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube.Setup.0.6.0.exe";
-$downloadLinuxTarx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux.tar.xz";
-$downloadLinuxZipx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux.zip";
-$downloadLinuxZipArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube-0.6.0-linux-arm64.zip";
-$downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/download/v0.6.0-beta/FreeTube0.6.0-linux-arm64.tar.xz";
+$versionNumber = str_replace('-beta', '', $fullTagName);
+$versionNumber = str_replace('v', '', $versionNumber);
+
+$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube.".$versionNumber.".AppImage";
+$downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_amd64.deb";
+$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_arm64.deb";
+$downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".arm64.rpm";
+$downloadRpmx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".x86_64.rpm";
+$downloadMacZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-mac.zip";
+$downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-win.zip";
+$downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube.Setup.".$versionNumber.".exe";
+$downloadLinuxTarx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-linux.tar.xz";
+$downloadLinuxZipx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-linux.zip";
+$downloadLinuxZipArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-linux-arm64.zip";
+$downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-linux-arm64.tar.xz";
 ?>
     <p class='center'><img src='images/FreeTube1.png' class='bannerImage' /></p>
     <br /><br />
@@ -106,7 +98,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
       <h1 class='center'>Download FreeTube</h1>
       <h3 class='center'>Current: <?php echo $currentRelease ?> </h3>
       <br />
-      <p class='textBlurb center'>FreeTube is free to download thanks to its open source nature.</p>
+      <p class='textBlurb center'><?php echo $fullTagName; echo $versionNumber; ?>FreeTube is free to download thanks to its open source nature.</p>
       <br /><br />
       <div class='features'>
         <div class='feature download'>
