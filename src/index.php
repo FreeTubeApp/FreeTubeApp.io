@@ -1,24 +1,11 @@
 <?php
 require('includes/header.php');
 
-$url = "https://api.github.com/repos/freetubeapp/freetube/releases";
+$currentRelease = 'Release 0.7.0 Beta';
 
-$curl = curl_init();
+$fullTagName = 'v0.7.0-beta';
 
-curl_setopt($curl, CURLOPT_URL, $url);
-curl_setopt($curl, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-
-$releaseInfo = json_decode(curl_exec($curl));
-
-curl_close($curl);
-
-$currentRelease = $releaseInfo[0]->name;
-
-$fullTagName = $releaseInfo[0]->tag_name;
-
-$versionNumber = str_replace('-beta', '', $fullTagName);
-$versionNumber = str_replace('v', '', $versionNumber);
+$versionNumber = '0.7.0';
 
 $downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube.".$versionNumber.".AppImage";
 $downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_amd64.deb";
