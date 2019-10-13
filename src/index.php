@@ -7,7 +7,7 @@ $fullTagName = 'v0.7.0-beta';
 
 $versionNumber = '0.7.0';
 
-$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube.".$versionNumber.".AppImage";
+$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".AppImage";
 $downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_amd64.deb";
 $downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_arm64.deb";
 $downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".arm64.rpm";
