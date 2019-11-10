@@ -12,7 +12,7 @@ $downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$
 $downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube_".$versionNumber."_arm64.deb";
 $downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".arm64.rpm";
 $downloadRpmx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber.".x86_64.rpm";
-$downloadMacZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-mac.zip";
+$downloadMacDmg = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-mac.dmg";
 $downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-win.zip";
 $downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube.Setup.".$versionNumber.".exe";
 $downloadLinuxTarx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/".$fullTagName."/FreeTube-".$versionNumber."-linux.tar.xz";
@@ -99,7 +99,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
           <i class='fab fa-apple'></i>
           <h3>Download for Mac OS<br />x64</h3>
           <br />
-          <a href='<?php echo $downloadMacZip; ?>'><div class='largeButton'>.zip</div></a>
+          <a href='<?php echo $downloadMacDmg; ?>'><div class='largeButton'>.dmg</div></a>
         </div>
         <div class='feature download'>
           <i class='fab fa-ubuntu'></i>
