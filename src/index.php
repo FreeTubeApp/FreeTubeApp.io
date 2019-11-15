@@ -42,7 +42,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
         <div class='feature'>
           <i class='fas fa-database'></i>
           <h3>Local Data</h3>
-          <p>All Subscirptions, History and Favorites are stored locally</p>
+          <p>All Subscriptions, History and Favorites are stored locally</p>
         </div>
         <div class='feature'>
           <i class='fas fa-ban'></i>
@@ -66,7 +66,9 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
         </div>
         <div class='feature'>
           <i class='fas fa-file-import'></i>
-          <h3>Import Subscriptions</h3>
+          <h3>Import 
+            
+            </h3>
           <p>Import your subscriptions from YouTube to see your feed instantly</p>
         </div>
         <div class='feature'>
