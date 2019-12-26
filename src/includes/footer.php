@@ -6,7 +6,7 @@
       <ul>
         <li><a href='/'>Home</a> |</li>
         <li><a href='https://github.com/FreeTubeApp/FreeTube/issues'>GitHub Issues</a> |</li>
-        <li><a href='https://riot.im/app/#/group/+freetube:matrix.org'>Matrix Server</a> |</li>
+        <li><a href='https://riot.im/app/#/group/+freetube:matrix.org'>Matrix Community</a> |</li>
         <li><a href='http://blog.freetubeapp.io'>Blog</a> |</li>
         <li><a href='https://liberapay.com/FreeTube'>Donate</a></li>
       </ul>
