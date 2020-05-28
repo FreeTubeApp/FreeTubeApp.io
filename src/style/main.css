@@ -1,3 +1,12 @@
+:root {
+    --bg-color: #EEEEEE;
+    --primary: #03A9F4;
+    --link-color: #2196F3;
+    --secondary: #f44336;
+    --white: white;
+    --shadow: rgba(0, 0, 0, 0.75);
+}
+
 @font-face {
     font-family: Roboto;
     src: url(Roboto-Regular.ttf);
@@ -5,7 +14,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #EEEEEE;
+  background-color: var(--bg-color);
 }
 
 html {
@@ -13,19 +22,19 @@ html {
 }
 
 a {
-  color: #2196F3;
+  color: var(--link-color);
 }
 
 .header {
   width: 100%;
   height: 75px;
-  background-color: #03A9F4;
+  background-color: var(--primary);
   position: fixed;
   top: 0px;
   right: 0px;
-  -webkit-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 5px 19px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 5px 19px 0px var(--shadow);
+  -moz-box-shadow: 0px 5px 19px 0px var(--shadow);
+  box-shadow: 0px 5px 19px 0px var(--shadow);
 }
 
 .headerIcon {
@@ -49,7 +58,7 @@ a {
   height: 75px;
   text-align: center;
   line-height: 75px;
-  color: white;
+  color: var(--white);
   -webkit-transition: background 0.2s ease-out;
   -moz-transition: background 0.2s ease-out;
   -o-transition: background 0.2s ease-out;
@@ -57,7 +66,7 @@ a {
 }
 
 .navigation li:hover {
-  background-color: #f44336;
+  background-color: var(--secondary);
   -moz-transition: background 0.2s ease-in;
   -o-transition: background 0.2s ease-in;
   transition: background 0.2s ease-in;
@@ -79,17 +88,17 @@ a {
 
 .bannerImage {
   width: 80%;
-  -webkit-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 24px 0px var(--shadow);
+  -moz-box-shadow: 5px 5px 24px 0px var(--shadow);
+  box-shadow: 5px 5px 24px 0px var(--shadow);
 }
 
 .card {
-  background-color: white;
+  background-color: var(--white);
   width: 90%;
-  -webkit-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
-  box-shadow: 5px 5px 24px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 5px 5px 24px 0px var(--shadow);
+  -moz-box-shadow: 5px 5px 24px 0px var(--shadow);
+  box-shadow: 5px 5px 24px 0px var(--shadow);
   margin: 0 auto;
   padding: 15px;
 }
@@ -124,9 +133,9 @@ a {
   display: inline-block;
   width: 100px;
   height: 40px;
-  color: white;
+  color: var(--white);
   line-height: 40px;
-  background-color: #03A9F4;
+  background-color: var(--primary);
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -137,9 +146,9 @@ a {
   display: inline-block;
   width: 205px;
   height: 40px;
-  color: white;
+  color: var(--white);
   line-height: 40px;
-  background-color: #03A9F4;
+  background-color: var(--primary);
   border-radius: 10px 10px 10px 10px;
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -149,8 +158,8 @@ a {
 .footer {
   width: 100%;
   height: 300px;
-  background-color: #03A9F4;
-  color: white;
+  background-color: var(--primary);
+  color: var(--white);
   margin-top: 200px;
   position: absolute;
   bottom: 0px;
@@ -158,7 +167,7 @@ a {
 }
 
 .footer a {
-  color: white;
+  color: var(--white);
   text-decoration-line: underline;
 }
 
