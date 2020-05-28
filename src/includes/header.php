@@ -2,27 +2,27 @@
 $currentUrl = $_SERVER['PHP_SELF'];
 
 if (strpos($currentUrl, 'index.php') !== false) {
-  $contactUrl = '#contact';
-  $downloadUrl = '#download';
+    $contactUrl = '#contact';
+    $downloadUrl = '#download';
+} else {
+    $contactUrl = '/#contact';
+    $downloadUrl = '/#download';
 }
-else {
-  $contactUrl = '/#contact';
-  $downloadUrl = '/#download';
-}
+
 ?>
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/solid.min.css">
   <link rel="stylesheet" href="style/brands.min.css">
   <link rel="stylesheet" href="style/fontawesome.min.css">
-
   <link rel="shortcut icon" href="images/iconColor.ico" type="image/x-icon" />
+
   <title>FreeTube - The private YouTube client</title>
   <!-- Matomo -->
   <script type="text/javascript">
@@ -41,21 +41,53 @@ else {
   <!-- End Matomo Code -->
 </head>
 
-<body>
-  <div class='header'>
-    <img src='images/iconWhite.png' class='headerIcon' />
-    <ul class='navigation'>
-      <a href='/'><li><i class='fas fa-home'></i><span class='navigationText'>&nbsp;&nbsp;Home</span></li></a>
-      <a href='<?php echo $downloadUrl; ?>'><li><i class='fas fa-download'></i><span class='navigationText'>&nbsp;&nbsp;Download</span></li></a>
-      <a href="<?php echo $contactUrl; ?>"><li><i class='fas fa-comment'></i><span class='navigationText'>&nbsp;&nbsp;Contact</span></li></a>
-      <a href='/about.php'><li><i class='fas fa-question'></i><span class='navigationText'>&nbsp;&nbsp;About</span></li></a>
-      <a href='/privacy.php'><li><i class='fas fa-user-secret'></i><span class='navigationText'>&nbsp;&nbsp;Privacy</span></li></a>
-      <a href='http://blog.freetubeapp.io'><li><i class='fas fa-rss'></i><span class='navigationText'>&nbsp;&nbsp;Blog</span></li></a>
-      <a href='http://source.freetubeapp.io'><li><i class='fab fa-github'></i><span class='navigationText'>&nbsp;&nbsp;Source</span></li></a>
-    </ul>
-  </div>
-
-  <div class='body'>
-    <p class='center'><img src='images/logoType.svg' class='title'/></p>
-    <h2 class='center'>The Private YouTube Client</h2>
-    <br /><br />
+<body class="bg-gray-200 font-sans">
+  <header class="w-full sticky top-0 shadow-2xl bg-primary h-20">
+    <div class="mx-auto container items-center flex justify-between px-6">
+      <img src='images/iconWhite.png' class='h-12 inline-block'/>
+      <ul class='list-none'>
+        <a href='/'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-home'></i>
+            <span class='px-2 hidden lg:inline'>Home</span>
+          </li>
+        </a>
+        <a href='<?php echo $downloadUrl; ?>'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-32 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-download'></i>
+            <span class='px-2 hidden lg:inline'>Download</span>
+          </li>
+        </a>
+        <a href="<?php echo $contactUrl; ?>">
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-comment'></i>
+            <span class='px-2 hidden lg:inline'>Contact</span>
+          </li>
+        </a>
+        <a href='/about.php'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-question'></i>
+            <span class='px-2 hidden lg:inline'>About</span>
+          </li>
+        </a>
+        <a href='/privacy.php'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-user-secret'></i>
+            <span class='px-2 hidden lg:inline'>Privacy</span>
+          </li>
+        </a>
+        <a href='http://blog.freetubeapp.io'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-rss'></i>
+            <span class='px-2 hidden lg:inline'>Blog</span>
+          </li>
+        </a>
+        <a href='http://source.freetubeapp.io'>
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fab fa-github'></i>
+            <span class='px-2 hidden lg:inline'>Source</span>
+          </li>
+        </a>
+      </ul>
+    </div>
+  </header><!-- /header -->
