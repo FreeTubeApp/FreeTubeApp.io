@@ -1,10 +1,10 @@
 :root {
-    --bg-color: #EEEEEE;
-    --primary: #03A9F4;
-    --link-color: #2196F3;
-    --secondary: #f44336;
-    --white: white;
-    --shadow: rgba(0, 0, 0, 0.75);
+    --bg-color: hsl(0, 0%, 93%);
+    --primary: hsl(199, 98%, 48%);
+    --link-color: hsl(207, 90%, 54%);
+    --secondary: hsl(4, 90%, 58%);
+    --white: hsl(0, 0%, 100%);
+    --shadow: hsla(0, 0%, 0%, 0.75);
 }
 
 @font-face {
