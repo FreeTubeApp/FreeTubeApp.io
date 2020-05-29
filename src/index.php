@@ -8,15 +8,15 @@ $fullTagName = 'v0.7.2-beta';
 $versionNumber = '0.7.2';
 
 $downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.AppImage";
-$downloadDebx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_$versionNumber_amd64.deb";
-$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_$versionNumber_arm64.deb";
+$downloadDebx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_".$versionNumber."_amd64.deb";
+$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_".$versionNumber."_arm64.deb";
 $downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.arm64.rpm";
-$downloadRpmx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.x86_64.rpm";
+$downloadRpmx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.x86_64.rpm";
 $downloadMacDmg = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-mac.dmg";
 $downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-win.zip";
 $downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube.Setup.$versionNumber.exe";
-$downloadLinuxTarx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.tar.xz";
-$downloadLinuxZipx86 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.zip";
+$downloadLinuxTarx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.tar.xz";
+$downloadLinuxZipx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.zip";
 $downloadLinuxZipArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux-arm64.zip";
 $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux-arm64.tar.xz";
 ?>
@@ -172,8 +172,8 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Ubuntu / Debian x64</h3>
-              <a href="<?php echo $downloadDebx86; ?>">
-                <span class="download">.deb (x86)</span>
+              <a href="<?php echo $downloadDebx64; ?>">
+                <span class="download">.deb (x64)</span>
               </a>
               <a href="<?php echo $downloadDebArm; ?>">
                 <span class="download">.deb (arm)</span>
@@ -187,8 +187,8 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Fedora / RedHat x64</h3>
-              <a href="<?php echo $downloadRpmx86; ?>">
-                <span class="download">.rpm (x86)</span>
+              <a href="<?php echo $downloadRpmx64; ?>">
+                <span class="download">.rpm (x64)</span>
               </a>
               <a href="<?php echo $downloadRpmArm; ?>">
                 <span class="download">.rpm (arm)</span>
@@ -220,14 +220,14 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
               <a href="https://aur.archlinux.org/packages/freetube-bin/">
                 <span class="download">Arch User Repository</span>
               </a>
-              <a href="<?php echo $downloadLinuxZipx86; ?>">
-                <span class="download">.zip (x86)</span>
+              <a href="<?php echo $downloadLinuxZipx64; ?>">
+                <span class="download">.zip (x64)</span>
               </a>
               <a href="<?php echo $downloadLinuxZipArm; ?>">
                 <span class="download">.zip (arm)</span>
               </a>
-              <a href="<?php echo $downloadLinuxTarx86; ?>">
-                <span class="download">.tar (x86)</span>
+              <a href="<?php echo $downloadLinuxTarx64; ?>">
+                <span class="download">.tar (x64)</span>
               </a>
               <a href="<?php echo $downloadLinuxTarArm; ?>">
                 <span class="download">.tar (arm)</span>
@@ -267,7 +267,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
           <span class="my-3 block"></span>
           <a href="monero:48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB">
             <i class="fab fa-monero text-xl"></i>
-            <span>XMR: 48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB</span>
+            <span class="text-wrap">XMR: 48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB</span>
           </a>
         </div>
       </div>

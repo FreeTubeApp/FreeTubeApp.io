@@ -207,6 +207,7 @@ video { max-width: 100%; height: auto }
 .text-green-900 { --text-opacity: 1; color: #22543d; color: rgba(34, 84, 61, var(--text-opacity)) }
 .text-blue-900 { --text-opacity: 1; color: #2a4365; color: rgba(42, 67, 101, var(--text-opacity)) }
 .text-primary { color: hsl(200, 98%, 48%) }
+.text-wrap { word-wrap: break-word; }
 .tracking-wide { letter-spacing: 0.025em }
 .w-12 { width: 3rem }
 .w-24 { width: 6rem }
@@ -216,6 +217,9 @@ video { max-width: 100%; height: auto }
 .transition-all { transition-property: all }
 .transition { transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform }
 .duration-200 { transition-duration: 200ms }
+@media (max-width:460px) {
+  .classLink, .sourceLink {display: none;}
+}
 @media (min-width:640px) {
   .sm\:mx-16 { margin-left: 4rem; margin-right: 4rem }
   .sm\:ml-16 { margin-left: 4rem }
