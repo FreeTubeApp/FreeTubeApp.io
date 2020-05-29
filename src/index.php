@@ -224,13 +224,13 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
                 <span class="download">.zip (x64)</span>
               </a>
               <a href="<?php echo $downloadLinuxZipArm; ?>">
-                <span class="download">.zip (arm)</span>
+                <span class="download">.zip (arm64)</span>
               </a>
               <a href="<?php echo $downloadLinuxTarx64; ?>">
                 <span class="download">.tar (x64)</span>
               </a>
               <a href="<?php echo $downloadLinuxTarArm; ?>">
-                <span class="download">.tar (arm)</span>
+                <span class="download">.tar (arm64)</span>
               </a>
             </div>
           </div>
