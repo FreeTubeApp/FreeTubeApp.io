@@ -264,6 +264,11 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             <i class="fab fa-bitcoin text-xl"></i>
             <span>BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS</span>
           </a>
+          <span class="my-3 block"></span>
+          <a href="monero:48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB">
+            <i class="fab fa-monero text-xl"></i>
+            <span>XMR: 48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB</span>
+          </a>
         </div>
       </div>
     </section>
