@@ -176,7 +176,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
                 <span class="download">.deb (x64)</span>
               </a>
               <a href="<?php echo $downloadDebArm; ?>">
-                <span class="download">.deb (arm)</span>
+                <span class="download">.deb (arm64)</span>
               </a>
             </div>
           </div>
@@ -191,7 +191,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
                 <span class="download">.rpm (x64)</span>
               </a>
               <a href="<?php echo $downloadRpmArm; ?>">
-                <span class="download">.rpm (arm)</span>
+                <span class="download">.rpm (arm64)</span>
               </a>
             </div>
           </div>
