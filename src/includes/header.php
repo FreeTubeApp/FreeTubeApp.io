@@ -23,7 +23,7 @@ if (strpos($currentUrl, 'index.php') !== false) {
   <link rel="stylesheet" href="style/fontawesome.min.css">
   <link rel="shortcut icon" href="images/iconColor.ico" type="image/x-icon" />
 
-  <title>FreeTube - The private YouTube client</title>
+  <title>FreeTube - The Private YouTube Client</title>
   <!-- Matomo -->
   <script type="text/javascript">
     var _paq = window._paq || [];
