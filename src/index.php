@@ -257,7 +257,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
         </div>
-        <p>If you like FreeTube, consider supporting the project by donating on <a class="text-primary" href="https://liberapay.com/FreeTube">Liberapay</a> or by donating to our Bitcoin address:</p>
+        <p>If you like FreeTube, consider supporting the project by donating on <a class="text-primary" href="https://liberapay.com/FreeTube">Liberapay</a> or by donating to one of the following Cryptocurrency addresses:</p>
 
         <div  class="text-primary p-10">
           <a href="bitcoin:1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS">
