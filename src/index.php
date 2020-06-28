@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.7.2 Beta';
+$currentRelease = 'Release 0.7.3 Beta';
 
-$fullTagName = 'v0.7.2-beta';
+$fullTagName = 'v0.7.3-beta';
 
-$versionNumber = '0.7.2';
+$versionNumber = '0.7.3';
 
 $downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.AppImage";
 $downloadDebx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_".$versionNumber."_amd64.deb";
