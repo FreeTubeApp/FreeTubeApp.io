@@ -61,7 +61,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             </div>
             <div class="ml-12">
               <h3 class="text-2xl text-blue-900">Local Data</h3>
-              <p class="text-md text-gray-900">All Subscirptions, History and Favorites are stored locally</p>
+              <p class="text-md text-gray-900">All Subscriptions, History and Favorites are stored locally</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
@@ -262,7 +262,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
         <div  class="text-primary p-10">
           <a href="bitcoin:1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS">
             <i class="fab fa-bitcoin text-xl"></i>
-            <span>BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS</span>
+            <span class="text-wrap">BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS</span>
           </a>
           <span class="my-3 block"></span>
           <a href="monero:48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB">
