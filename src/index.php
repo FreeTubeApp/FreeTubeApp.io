@@ -1,24 +1,24 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.7.3 Beta';
+$currentRelease = 'Release 0.8.0 Beta';
 
-$fullTagName = 'v0.7.3-beta';
+$fullTagName = 'v0.8.0-beta';
 
-$versionNumber = '0.7.3';
+$versionNumber = '0.8.0';
 
-$downloadAppImage = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.AppImage";
-$downloadDebx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_".$versionNumber."_amd64.deb";
-$downloadDebArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube_".$versionNumber."_arm64.deb";
-$downloadRpmArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.arm64.rpm";
-$downloadRpmx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber.x86_64.rpm";
-$downloadMacDmg = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-mac.dmg";
-$downloadWinZip = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-win.zip";
-$downloadWinExe = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube.Setup.$versionNumber.exe";
-$downloadLinuxTarx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.tar.xz";
-$downloadLinuxZipx64 = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux.zip";
-$downloadLinuxZipArm = "https://github.com/FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux-arm64.zip";
-$downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/download/$fullTagName/FreeTube-$versionNumber-linux-arm64.tar.xz";
+$baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
+
+$downloadAppImage = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.AppImage.zip";
+$downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb.zip";
+$downloadDebArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb.zip";
+$downloadRpmArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm.zip";
+$downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm.zip";
+$downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac.dmg.zip";
+$downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
+$downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.exe.zip";
+$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux_portable_x64.zip";
+$downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux_portable_arm64.zip";
 ?>
 
   <main class="mt-24">
@@ -34,7 +34,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
     <section class="w-full mt-24 bg-secondary">
       <div class="container mx-auto py-16 px-5">
         <h1 class="text-4xl">What is FreeTube?</h1>
-        <p class="pt-5 leading-8 text-black tracking-wide">FreeTube is a YouTube client for Windows, Mac, and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  Being powered by the Invidious API, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
+        <p class="pt-5 leading-8 text-black tracking-wide">FreeTube is a YouTube client for Windows, Mac, and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
       </div>
     </section>
 
@@ -61,7 +61,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             </div>
             <div class="ml-12">
               <h3 class="text-2xl text-blue-900">Local Data</h3>
-              <p class="text-md text-gray-900">All Subscriptions, History and Favorites are stored locally</p>
+              <p class="text-md text-gray-900">All Subscriptions and History are stored locally</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
@@ -97,7 +97,7 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
             </div>
             <div class="ml-12">
               <h3 class="text-2xl text-blue-900">Open Source</h3>
-              <p class="text-md text-gray-900">FreeTube is Free and Open Source Software under the GPLv3</p>
+              <p class="text-md text-gray-900">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
@@ -225,12 +225,6 @@ $downloadLinuxTarArm = "https://github.com//FreeTubeApp/FreeTube/releases/downlo
               </a>
               <a href="<?php echo $downloadLinuxZipArm; ?>">
                 <span class="download">.zip (arm64)</span>
-              </a>
-              <a href="<?php echo $downloadLinuxTarx64; ?>">
-                <span class="download">.tar (x64)</span>
-              </a>
-              <a href="<?php echo $downloadLinuxTarArm; ?>">
-                <span class="download">.tar (arm64)</span>
               </a>
             </div>
           </div>
