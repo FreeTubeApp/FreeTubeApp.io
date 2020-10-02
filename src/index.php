@@ -9,7 +9,7 @@ $versionNumber = '0.8.0';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
-$downloadAppImage = $baseUrl.$fullTagName."/FreeTube_".$versionNumber.".AppImage";
+$downloadAppImage = $baseUrl.$fullTagName."/FreeTube-".$versionNumber.".AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb.zip";
 $downloadDebArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb.zip";
 $downloadRpmArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm.zip";
