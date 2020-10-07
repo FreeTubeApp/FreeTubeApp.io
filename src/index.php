@@ -118,6 +118,15 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
               <p class="text-md text-gray-900">Runs on Windows, Mac, and several Linux distributions</p>
             </div>
           </div>
+          <div class="mt-4 flex items-center">
+            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+              <i class="fas fa-language text-4xl"></i>
+            </div>
+            <div class="ml-12">
+              <h3 class="text-2xl text-blue-900">Multilingual</h3>
+              <p class="text-md text-gray-900">Translated into many <a href="https://hosted.weblate.org/engage/free-tube/" class="text-gray-200">languages</a></p>
+            </div>
+          </div>
         </div>
         <p class="mt-12 text-right text-blue-900 text-2xl">...and many more to come!</p>
       </div>
