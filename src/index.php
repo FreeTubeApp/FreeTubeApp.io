@@ -255,7 +255,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <span class="ml-5">FreeTubeApp@protonmail.com</span>
           </a>
           <span class="my-3 block"></span>
-          <a href="https://riot.im/app/#/group/+freetube:matrix.org">
+          <a href="https://matrix.to/#/+freetube:matrix.org">
             <i class="fas fa-comments text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
