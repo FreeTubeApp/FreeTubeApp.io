@@ -31,10 +31,10 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
       <img src="images/FreeTube1.png" class="shadow-2xl" width="80%" alt="FreeTube's Latest Subscriptions using the grid view" />
     </section>
 
-    <section class="w-full mt-24 bg-secondary">
+    <section class="w-full mt-24 bg-secondary text-gray-200">
       <div class="container mx-auto py-16 px-5">
         <h1 class="text-4xl">What is FreeTube?</h1>
-        <p class="pt-5 leading-8 text-black tracking-wide">FreeTube is a YouTube client for Windows, Mac, and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
+        <p class="pt-5 leading-8 text-gray-200 tracking-wide">FreeTube is a YouTube client for Windows, Mac, and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
       </div>
     </section>
 
@@ -42,93 +42,93 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
       <img src="images/FreeTube2.png" class="shadow-2xl" width="80%" alt="Playing a video using FreeTube" />
     </section>
 
-    <section class="w-full mt-24 bg-primary">
+    <section class="w-full mt-24 bg-primary text-gray-200">
       <div class="container mx-auto py-16 px-5">
         <h1 class="text-3xl">Current Features</h1>
         <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-users text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Subscriptions</h3>
-              <p class="text-md text-gray-900">Subscribe to channels without an account</p>
+              <h3 class="text-2xl text-gray-100">Subscriptions</h3>
+              <p class="text-md text-gray-200">Subscribe to channels without an account</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-database text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Local Data</h3>
-              <p class="text-md text-gray-900">All Subscriptions and History are stored locally</p>
+              <h3 class="text-2xl text-gray-100">Local Data</h3>
+              <p class="text-md text-gray-200">All Subscriptions and History are stored locally</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-ban text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">No Ads</h3>
-              <p class="text-md text-gray-900">Enjoy an ad free experience as you watch</p>
+              <h3 class="text-2xl text-gray-100">No Ads</h3>
+              <p class="text-md text-gray-200">Enjoy an ad free experience as you watch</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-user-secret text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Private</h3>
-              <p class="text-md text-gray-900">Your viewing habits are not tracked by us or YouTube</p>
+              <h3 class="text-2xl text-gray-100">Private</h3>
+              <p class="text-md text-gray-200">Your viewing habits are not tracked by us or YouTube</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-paint-brush text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Familiar Design</h3>
-              <p class="text-md text-gray-900">A design similar to YouTube makes it easy to transition to FreeTube</p>
+              <h3 class="text-2xl text-gray-100">Familiar Design</h3>
+              <p class="text-md text-gray-200">A design similar to YouTube makes it easy to transition to FreeTube</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fab fa-osi text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Open Source</h3>
-              <p class="text-md text-gray-900">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
+              <h3 class="text-2xl text-gray-100">Open Source</h3>
+              <p class="text-md text-gray-200">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-file-import text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Import Subscriptions</h3>
-              <p class="text-md text-gray-900">Import your subscriptions from YouTube to see your feed instantly</p>
+              <h3 class="text-2xl text-gray-100">Import Subscriptions</h3>
+              <p class="text-md text-gray-200">Import your subscriptions from YouTube to see your feed instantly</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-desktop text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Multi Platform</h3>
-              <p class="text-md text-gray-900">Runs on Windows, Mac, and several Linux distributions</p>
+              <h3 class="text-2xl text-gray-100">Multi Platform</h3>
+              <p class="text-md text-gray-200">Runs on Windows, Mac, and several Linux distributions</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
-            <div class="rounded-lg bg-gray-300 p-6 w-24 flex justify-center">
+            <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-language text-4xl"></i>
             </div>
             <div class="ml-12">
-              <h3 class="text-2xl text-blue-900">Multilingual</h3>
-              <p class="text-md text-gray-900">Translated into many <a href="https://hosted.weblate.org/engage/free-tube/" class="text-gray-200">languages</a></p>
+              <h3 class="text-2xl text-gray-100">Multilingual</h3>
+              <p class="text-md text-gray-200">Translated into many <a href="https://hosted.weblate.org/engage/free-tube/" class="text-gray-100">languages</a></p>
             </div>
           </div>
         </div>
-        <p class="mt-12 text-right text-blue-900 text-2xl">...and many more to come!</p>
+        <p class="mt-12 text-right text-gray-100 text-2xl">...and many more to come!</p>
       </div>
     </section>
 
@@ -140,14 +140,14 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
     <section class="w-full mt-24 bg-secondary">
       <div class="container mx-auto py-16 px-5">
         <div class="content-title">
-          <h1 class="text-3xl flex items-baseline">
+          <h1 class="text-3xl text-gray-100 flex items-baseline">
             Download FreeTube
             <span class="ml-5 text-xl py-1 px-3 bg-red-900 rounded-full text-red-300"><?php echo $currentRelease ?> </span>
           </h1>
-          <p class="mt-5 text-red-900">FreeTube is free to download thanks to its open source nature.</p>
+          <p class="mt-5 text-gray-200">FreeTube is free to download thanks to its open source nature.</p>
         </div>
 
-        <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div class="mt-10 text-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
               <i class="fab fa-windows text-6xl"></i>
@@ -238,7 +238,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             </div>
           </div>
         </div>
-        <p class="text-center mt-10 text-red-900">Users are also welcome to download from <a href="http://source.freetubeapp.io" class="text-gray-900">source</a> for all platforms</p>
+        <p class="text-center mt-10 text-gray-200">Users are also welcome to download from <a href="http://source.freetubeapp.io" class="text-red-900">source</a> for all platforms</p>
       </div>
     </section>
 

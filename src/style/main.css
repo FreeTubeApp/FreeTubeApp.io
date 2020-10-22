@@ -139,6 +139,7 @@ video { max-width: 100%; height: auto }
 .bg-red-900 { --bg-opacity: 1; background-color: #742a2a; background-color: rgba(116, 42, 42, var(--bg-opacity)) }
 .bg-green-300 { --bg-opacity: 1; background-color: #9ae6b4; background-color: rgba(154, 230, 180, var(--bg-opacity)) }
 .bg-primary { background-color: hsl(200, 98%, 48%) }
+.bg-primary-accent { --bg-opacity: 1; background-color: #2977ff; background-color: rgba(41, 119, 255, var(--bg-opacity)) }
 .bg-secondary { background-color: hsl(4, 90%, 58%) }
 .hover\:bg-secondary:hover { background-color: hsl(4, 90%, 58%) }
 .rounded-lg { border-radius: 0.5rem }
@@ -199,6 +200,7 @@ video { max-width: 100%; height: auto }
 .text-center { text-align: center }
 .text-right { text-align: right }
 .text-black { --text-opacity: 1; color: #000; color: rgba(0, 0, 0, var(--text-opacity)) }
+.text-gray-100 { --text-opacity: 1; color: #FAFAFA; color: rgba(250,250,250 ,var(--text-opacity)) }
 .text-gray-200 { --text-opacity: 1; color: #edf2f7; color: rgba(237, 242, 247, var(--text-opacity)) }
 .text-gray-500 { --text-opacity: 1; color: #a0aec0; color: rgba(160, 174, 192, var(--text-opacity)) }
 .text-gray-900 { --text-opacity: 1; color: #1a202c; color: rgba(26, 32, 44, var(--text-opacity)) }

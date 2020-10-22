@@ -42,7 +42,7 @@ if (strpos($currentUrl, 'index.php') !== false) {
 </head>
 
 <body class="bg-gray-200 font-sans">
-  <header class="w-full sticky top-0 shadow-2xl bg-primary h-20">
+  <header class="w-full sticky top-0 shadow-2xl bg-primary h-20 text-gray-200">
     <div class="mx-auto container items-center flex justify-between px-6">
       <img src='images/iconWhite.png' class='h-12 inline-block'/>
       <ul class='list-none'>
