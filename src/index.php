@@ -50,7 +50,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-users text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Subscriptions</h3>
               <p class="text-md text-gray-200">Subscribe to channels without an account</p>
             </div>
@@ -59,7 +59,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-database text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Local Data</h3>
               <p class="text-md text-gray-200">All Subscriptions and History are stored locally</p>
             </div>
@@ -68,7 +68,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-ban text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">No Ads</h3>
               <p class="text-md text-gray-200">Enjoy an ad free experience as you watch</p>
             </div>
@@ -77,7 +77,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-user-secret text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Private</h3>
               <p class="text-md text-gray-200">Your viewing habits are not tracked by us or YouTube</p>
             </div>
@@ -86,7 +86,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-paint-brush text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Familiar Design</h3>
               <p class="text-md text-gray-200">A design similar to YouTube makes it easy to transition to FreeTube</p>
             </div>
@@ -95,7 +95,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fab fa-osi text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Open Source</h3>
               <p class="text-md text-gray-200">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
             </div>
@@ -104,7 +104,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-file-import text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Import Subscriptions</h3>
               <p class="text-md text-gray-200">Import your subscriptions from YouTube to see your feed instantly</p>
             </div>
@@ -113,7 +113,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-desktop text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Multi Platform</h3>
               <p class="text-md text-gray-200">Runs on Windows, Mac, and several Linux distributions</p>
             </div>
@@ -122,7 +122,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_linux
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
               <i class="fas fa-language text-4xl"></i>
             </div>
-            <div class="ml-12">
+            <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Multilingual</h3>
               <p class="text-md text-gray-200">Translated into many <a href="https://hosted.weblate.org/engage/free-tube/" class="text-gray-100">languages</a></p>
             </div>

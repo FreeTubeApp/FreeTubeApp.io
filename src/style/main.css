@@ -180,8 +180,10 @@ video { max-width: 100%; height: auto }
 .ml-8 { margin-left: 2rem }
 .mt-10 { margin-top: 2.5rem }
 .mt-12 { margin-top: 3rem }
+.ml-10 {margin-left: 2.5rem }
 .ml-12 { margin-left: 3rem }
 .mt-24 { margin-top: 6rem }
+.mr-2 {margin-right: 0.5rem }
 .p-1 { padding: 0.25rem }
 .p-6 { padding: 1.5rem }
 .p-10 { padding: 2.5rem }
@@ -212,7 +214,7 @@ video { max-width: 100%; height: auto }
 .text-wrap { word-wrap: break-word; }
 .tracking-wide { letter-spacing: 0.025em }
 .w-12 { width: 3rem }
-.w-24 { width: 6rem }
+.w-24 { min-width: 6rem }
 .w-full { width: 100% }
 .gap-5 { grid-gap: 1.25rem; gap: 1.25rem }
 .grid-cols-1 { grid-template-columns: repeat(1, minmax(0, 1fr)) }
