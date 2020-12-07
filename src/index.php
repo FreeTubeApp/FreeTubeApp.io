@@ -16,9 +16,9 @@ $downloadRpmArm = $baseUrl.$fullTagName."/freetube-".$versionNumber.".arm64.rpm"
 $downloadRpmx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".x86_64.rpm";
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber.".dmg";
 $downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
-$downloadWinExe = $baseUrl.$fullTagName."/freetube Setup ".$versionNumber.".exe";
-$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."_linux_portable_x64.zip";
-$downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."_linux_portable_arm64.zip";
+$downloadWinExe = $baseUrl.$fullTagName."/freetube.Setup.".$versionNumber.".exe";
+$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
+$downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
 ?>
 
   <main class="mt-24">
