@@ -9,14 +9,14 @@ $versionNumber = '0.10.0';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
-$downloadAppImage = $baseUrl.$fullTagName."/FreeTube-".$versionNumber.".AppImage";
+$downloadAppImage = $baseUrl.$fullTagName."/FreeTube_".$versionNumber."_amd64.AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb";
 $downloadDebArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb";
-$downloadRpmArm = $baseUrl.$fullTagName."/freetube-".$versionNumber.".arm64.rpm";
-$downloadRpmx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".x86_64.rpm";
-$downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber.".dmg";
-$downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
-$downloadWinExe = $baseUrl.$fullTagName."/freetube.Setup.".$versionNumber.".exe";
+$downloadRpmArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm";
+$downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm";
+$downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac.dmg";
+$downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable";
+$downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.exe";
 $downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
 $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
 ?>
