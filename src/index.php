@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.10.0 Beta';
+$currentRelease = 'Release 0.11.0 Beta';
 
-$fullTagName = 'v0.10.0-beta';
+$fullTagName = 'v0.11.0-beta';
 
-$versionNumber = '0.10.0';
+$versionNumber = '0.11.0';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
@@ -15,7 +15,7 @@ $downloadDebArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb"
 $downloadRpmArm = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm";
 $downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm";
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac.dmg";
-$downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable";
+$downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
 $downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.exe";
 $downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
 $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
