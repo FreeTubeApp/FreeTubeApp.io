@@ -19,7 +19,7 @@
             <i class="fas fa-donate icon"></i>
           </a>
         </nav>
-        <p class="mt-3">Copyright &copy; FreeTube 2020</p>
+        <p class="mt-3">Copyright &copy; FreeTube <?php echo date("Y"); ?></p>
       </div>
     </div>
   </footer><!-- /footer -->
