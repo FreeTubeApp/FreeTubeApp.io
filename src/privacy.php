@@ -12,7 +12,7 @@
   <div class="mt-24">
     <h1>
       <span class="text-xl font-bold">Privacy Policy: FreeTube Application</span>
-      <span class="ml-6 px-3 py-1 bg-green-300 text-green-900 rounded-full">Last Updated: October 2020</span>
+      <span class="ml-6 px-3 py-1 bg-green-300 text-green-900 rounded-full">Last Updated: May 2021</span>
     </h1>
     <p class="mt-5 sm:ml-16"> This privacy policy is to explain what information is collected by users of the FreeTube application and how it is used. This privacy policy may be changed or updated at any point in the future.</p>
     <h3 class="mt-8 font-bold text-lg ml-6">
@@ -23,6 +23,7 @@
     <p class="mt-5 sm:ml-16">FreeTube has the option to connect to an instance running Invidious.  A list of public instances can be found at <a href="https://instances.invidio.us/">https://instances.invidio.us/</a>.  Using FreeTube with an Invidious instance makes you subject to their privacy policy.  An example Invidious privacy policy can be found at <a href="https://invidious.snopyta.org/privacy">https://invidious.snopyta.org/privacy</a> though different instances may have different privacy policies.  Always ask the maintainer of that instance for an up to date privacy policy when needed.  Using Invidious prevents a majority of the calls needed to YouTube and can potentially give you an increase in privacy.  Invidious can also optionally proxy a video through the instance, further decreasing direct connections to YouTube.  Using an Invidious instance along with video proxies can be enabled through the settings page within FreeTube.</p>
     <p class="mt-5 sm:ml-16">FreeTube will make a connection to GitHub.com to check for updates and to provide changelog notes to the application.  This can be disabled within the settings page.</p>
     <p class="mt-5 sm:ml-16">FreeTube will make a connection to <a href="https://freetube.writeas.com/">https://freetube.writeas.com/</a> to check for new blog posts and to link them within the app.  This can be disabled within the settings page.</p>
+    <p class="mt-5 sm:ml-16">FreeTube has the option to use Sponsorblock (<a href="https://sponsor.ajay.app/">https://sponsor.ajay.app</a>) within the application. When enabled, FreeTube will make a connection to a Sponsorblock instance of your choice and send along a hash of the video ID of the video that you are watching in order to obtain information regarding where sponsor segments are within a video. Using Sponsorblock within FreeTube subjects you to their privacy policy, which you can learn more about <a href="https://gist.github.com/ajayyy/aa9f8ded2b573d4f73a3ffa0ef74f796">here</a>. This feature is disabled by default and will not send any information to a Sponsorblock server without your permission.</p>
     <p class="mt-5 sm:ml-16">Your IP and browser metadata are sent to the above domains.  A VPN is highly recommended while using FreeTube to avoid sending your real IP.</p>
   </div>
 </main>

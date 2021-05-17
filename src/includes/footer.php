@@ -9,13 +9,16 @@
           <a href='https://github.com/FreeTubeApp/FreeTube' title="Github Repository" aria-label="Github Repository">
             <i class="fab fa-github icon"></i>
           </a>
-          <a href='https://matrix.to/#/+freetube:matrix.org' title="" aria-label="">
+          <a href='https://matrix.to/#/+freetube:matrix.org' title="Chat with Matrix" aria-label="">
             <i class="fas fa-comment icon"></i>
           </a>
-          <a href='http://blog.freetubeapp.io' title="" aria-label="">
+          <a href='https://blog.freetubeapp.io' title="Blog" aria-label="">
             <i class="fas fa-blog icon"></i>
           </a>
-          <a href='https://liberapay.com/FreeTube' title="" aria-label="">
+          <a href='https://docs.freetubeapp.io' title="Documentation" aria-label="">
+            <i class="fas fa-file-alt icon"></i>
+          </a>
+          <a href='https://liberapay.com/FreeTube' title="Donate" aria-label="">
             <i class="fas fa-donate icon"></i>
           </a>
         </nav>

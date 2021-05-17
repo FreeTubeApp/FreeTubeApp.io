@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.12.0 Beta';
+$currentRelease = 'Release 0.13.0 Beta';
 
-$fullTagName = 'v0.12.0-beta';
+$fullTagName = 'v0.13.0-beta';
 
-$versionNumber = '0.12.0';
+$versionNumber = '0.13.0';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
@@ -259,7 +259,44 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
             <i class="fas fa-comments text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
+          <span class="my-3 block"></span>
+          <a href="https://mastodon.technology/@FreeTube">
+            <i class="fab fa-mastodon text-xl"></i>
+            <span class="ml-6">FreeTube on Mastodon</span>
+          </a>
         </div>
+      </div>
+      <div class="container mx-auto px-5">
+        <h1 class="text-3xl">Useful Links</h1>
+        <div class="text-primary p-10">
+          <a href="https://github.com/FreeTubeApp/FreeTube">
+            <i class="fab fa-github text-xl"></i>
+            <span class="ml-5">GitHub</span>
+          </a>
+          <span class="my-3 block"></span>
+          <a href="https://github.com/FreeTubeApp/FreeTube/releases">
+            <i class="fas fa-clipboard-list text-xl"></i>
+            <span class="ml-6">Release Changlog</span>
+          </a>
+          <span class="my-3 block"></span>
+          <a href="https://hosted.weblate.org/engage/free-tube/">
+            <i class="fas fa-language text-xl"></i>
+            <span class="ml-4">Translate via Weblate</span>
+          </a>
+          <span class="my-3 block"></span>
+          <a href="https://docs.freetubeapp.io/">
+            <i class="fas fa-file-alt text-xl"></i>
+            <span class="ml-7">Documentation</span>
+          </a>
+          <span class="my-3 block"></span>
+          <a href="https://blog.freetubeapp.io/">
+            <i class="fas fa-blog text-xl"></i>
+            <span class="ml-6">Blog</span>
+          </a>
+        </div>
+      </div>
+      <div class="container mx-auto px-5">
+        <h1 class="text-3xl">Donate</h1>
         <p>If you like FreeTube, consider supporting the project by donating on <a class="text-primary" href="https://liberapay.com/FreeTube">Liberapay</a> or by donating to one of the following Cryptocurrency addresses:</p>
 
         <div  class="text-primary p-10">

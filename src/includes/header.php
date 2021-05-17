@@ -58,10 +58,10 @@ if (strpos($currentUrl, 'index.php') !== false) {
             <span class='px-2 hidden lg:inline'>Download</span>
           </li>
         </a>
-        <a class="contactLink" href="<?php echo $contactUrl; ?>">
+        <a href='http://blog.freetubeapp.io'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-comment'></i>
-            <span class='px-2 hidden lg:inline'>Contact</span>
+            <i class='fas fa-rss'></i>
+            <span class='px-2 hidden lg:inline'>Blog</span>
           </li>
         </a>
         <a href='/about.php'>
@@ -76,16 +76,16 @@ if (strpos($currentUrl, 'index.php') !== false) {
             <span class='px-2 hidden lg:inline'>Privacy</span>
           </li>
         </a>
-        <a href='http://blog.freetubeapp.io'>
-          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-rss'></i>
-            <span class='px-2 hidden lg:inline'>Blog</span>
-          </li>
-        </a>
         <a class="sourceLink" href='http://source.freetubeapp.io'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
             <i class='fab fa-github'></i>
             <span class='px-2 hidden lg:inline'>Source</span>
+          </li>
+        </a>
+        <a class="contactLink" href="<?php echo $contactUrl; ?>">
+          <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
+            <i class='fas fa-comment'></i>
+            <span class='px-2 hidden lg:inline'>Contact</span>
           </li>
         </a>
       </ul>
