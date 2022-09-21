@@ -28,7 +28,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
     </header>
 
     <section class="flex justify-center mt-24">
-      <img src="images/FreeTube1.png" class="shadow-2xl" width="80%" alt="FreeTube's Latest Subscriptions using the grid view" />
+      <img src="images/FreeTube1.png" class="shadow-2xl" width="80%" alt="FreeTube's Trending page" />
     </section>
 
     <section class="w-full mt-24 bg-secondary text-gray-200">
@@ -51,7 +51,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-users text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Subscriptions</h3>
+              <h2 class="text-2xl text-gray-100">Subscriptions</h2>
               <p class="text-md text-gray-200">Subscribe to channels without an account</p>
             </div>
           </div>
@@ -60,7 +60,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-database text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Local Data</h3>
+              <h2 class="text-2xl text-gray-100">Local Data</h2>
               <p class="text-md text-gray-200">All Subscriptions and History are stored locally</p>
             </div>
           </div>
@@ -69,7 +69,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-ban text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">No Ads</h3>
+              <h2 class="text-2xl text-gray-100">No Ads</h2>
               <p class="text-md text-gray-200">Enjoy an ad free experience as you watch</p>
             </div>
           </div>
@@ -78,7 +78,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-user-secret text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Private</h3>
+              <h2 class="text-2xl text-gray-100">Private</h2>
               <p class="text-md text-gray-200">Your viewing habits are not tracked by us or YouTube</p>
             </div>
           </div>
@@ -87,7 +87,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-paint-brush text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Familiar Design</h3>
+              <h2 class="text-2xl text-gray-100">Familiar Design</h2>
               <p class="text-md text-gray-200">A design similar to YouTube makes it easy to transition to FreeTube</p>
             </div>
           </div>
@@ -96,7 +96,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-osi text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Open Source</h3>
+              <h2 class="text-2xl text-gray-100">Open Source</h2>
               <p class="text-md text-gray-200">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
             </div>
           </div>
@@ -105,7 +105,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fas fa-file-import text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h3 class="text-2xl text-gray-100">Import Subscriptions</h3>
+              <h2 class="text-2xl text-gray-100">Import Subscriptions</h2>
               <p class="text-md text-gray-200">Import your subscriptions from YouTube to see your feed instantly</p>
             </div>
           </div>
@@ -128,7 +128,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
             </div>
           </div>
         </div>
-        <p class="mt-12 text-right text-gray-100 text-2xl">...and many more to come!</p>
+        <p class="mt-12 text-right text-gray-100 text-xl">...and many more to come!</p>
       </div>
     </section>
 
@@ -153,7 +153,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-windows text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Windows x64</h3>
+              <h2 class="p-1 text-2xl">Windows x64</h2>
               <a href="<?php echo $downloadWinExe; ?>">
                 <span class="download">.exe</span>
               </a>
@@ -168,7 +168,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-apple text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">MacOS x64</h3>
+              <h2 class="p-1 text-2xl">MacOS x64</h2>
               <a href="<?php echo $downloadMacDmg; ?>">
                 <span class="download">.dmg</span>
               </a>
@@ -180,7 +180,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-ubuntu text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Ubuntu / Debian x64</h3>
+              <h2 class="p-1 text-2xl">Ubuntu / Debian x64</h2>
               <a href="<?php echo $downloadDebx64; ?>">
                 <span class="download">.deb (x64)</span>
               </a>
@@ -195,7 +195,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-fedora text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Fedora / RedHat x64</h3>
+              <h2 class="p-1 text-2xl">Fedora / RedHat x64</h2>
               <a href="<?php echo $downloadRpmx64; ?>">
                 <span class="download">.rpm (x64)</span>
               </a>
@@ -210,7 +210,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-dropbox text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Flatpak / AppImage</h3>
+              <h2 class="p-1 text-2xl">Flatpak / AppImage</h2>
               <a href="https://flathub.org/apps/details/io.freetubeapp.FreeTube">
                 <span class="download">Flathub</span>
               </a>
@@ -225,7 +225,7 @@ $downloadLinuxZipArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux
               <i class="fab fa-linux text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
+              <h2 class="p-1 text-2xl">Other Linux Distributions</h2>
               <a href="https://aur.archlinux.org/packages/freetube-bin/">
                 <span class="download">Arch User Repository</span>
               </a>

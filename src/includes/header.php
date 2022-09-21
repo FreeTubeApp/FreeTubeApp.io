@@ -11,11 +11,12 @@ if (strpos($currentUrl, 'index.php') !== false) {
 
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FreeTube is a feature-rich and user-friendly YouTube client with a focus on privacy.">
 
   <link rel="stylesheet" href="style/main.css">
   <link rel="stylesheet" href="style/solid.min.css">
@@ -43,8 +44,8 @@ if (strpos($currentUrl, 'index.php') !== false) {
 
 <body class="bg-gray-200 font-sans">
   <header class="w-full sticky top-0 shadow-2xl bg-primary h-20 text-gray-200">
-    <div class="mx-auto container items-center flex justify-between px-6">
-      <img src='images/iconWhite.png' class='h-12 inline-block'/>
+    <nav class="mx-auto container items-center flex justify-between px-6">
+      <img alt="FreeTube mini logo" role="banner" src='images/iconWhite.png' class='h-12 inline-block'/>
       <ul class='list-none'>
         <a href='/'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
