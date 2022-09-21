@@ -2,11 +2,11 @@
     <div class="px-5 container mx-auto flex items-center justify-between">
       <div>
         <p class="py-3">This site is released under the MIT license.</p>
-        <p class="py-2"> The source code for the site can be found here <a href='http://github.com/FreeTubeApp/FreeTubeApp.io' class="text-gray-200">FreeTubeApp.io Source Code</a>.</p>
+        <p class="py-2"> The source code for the site can be found on the <a href='http://github.com/FreeTubeApp/FreeTubeApp.io' class="text-gray-200">FreeTubeApp.io GitHub Repo</a>.</p>
       </div>
       <div>
         <nav class="flex">
-          <a href='https://github.com/FreeTubeApp/FreeTube' title="Github Repository" aria-label="Github Repository">
+          <a href='https://github.com/FreeTubeApp/FreeTube' title="GitHub Repository" aria-label="GitHub Repository">
             <i class="fab fa-github icon"></i>
           </a>
           <a href='https://matrix.to/#/+freetube:matrix.org' title="Chat with Matrix" aria-label="Chat with Matrix">
