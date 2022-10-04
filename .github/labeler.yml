@@ -1,0 +1,4 @@
+'PR: waiting for review':
+  - '*'  
+  - '.github/**/*'
+  - 'src/**/*'
