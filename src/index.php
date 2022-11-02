@@ -39,7 +39,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
     </header>
 
     <section class="flex justify-center mt-24">
-      <img src="images/FreeTube1.png" class="shadow-2xl" width="80%" alt="FreeTube's Trending page" />
+      <img src="images/FreeTube1.png" class="shadow-2xl" width="80%" alt="FreeTube's Latest Subscriptions using the grid view" />
     </section>
 
     <section class="w-full mt-24 bg-secondary text-gray-200">
@@ -62,7 +62,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-users text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Subscriptions</h2>
+              <h3 class="text-2xl text-gray-100">Subscriptions</h3>
               <p class="text-md text-gray-200">Subscribe to channels without an account</p>
             </div>
           </div>
@@ -71,7 +71,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-database text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Local Data</h2>
+              <h3 class="text-2xl text-gray-100">Local Data</h3>
               <p class="text-md text-gray-200">All Subscriptions and History are stored locally</p>
             </div>
           </div>
@@ -80,7 +80,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-ban text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">No Ads</h2>
+              <h3 class="text-2xl text-gray-100">No Ads</h3>
               <p class="text-md text-gray-200">Enjoy an ad free experience as you watch</p>
             </div>
           </div>
@@ -89,7 +89,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-user-secret text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Private</h2>
+              <h3 class="text-2xl text-gray-100">Private</h3>
               <p class="text-md text-gray-200">Your viewing habits are not tracked by us or YouTube</p>
             </div>
           </div>
@@ -98,7 +98,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-paint-brush text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Familiar Design</h2>
+              <h3 class="text-2xl text-gray-100">Familiar Design</h3>
               <p class="text-md text-gray-200">A design similar to YouTube makes it easy to transition to FreeTube</p>
             </div>
           </div>
@@ -107,7 +107,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-osi text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Open Source</h2>
+              <h3 class="text-2xl text-gray-100">Open Source</h3>
               <p class="text-md text-gray-200">FreeTube is Free and Open Source Software under the AGPLv3 License</p>
             </div>
           </div>
@@ -116,7 +116,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fas fa-file-import text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
-              <h2 class="text-2xl text-gray-100">Import Subscriptions</h2>
+              <h3 class="text-2xl text-gray-100">Import Subscriptions</h3>
               <p class="text-md text-gray-200">Import your subscriptions from YouTube to see your feed instantly</p>
             </div>
           </div>
@@ -139,7 +139,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
             </div>
           </div>
         </div>
-        <p class="mt-12 text-right text-gray-100 text-xl">...and many more to come!</p>
+        <p class="mt-12 text-right text-gray-100 text-2xl">...and many more to come!</p>
       </div>
     </section>
 
@@ -191,7 +191,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-apple text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h2 class="p-1 text-2xl">MacOS x64</h2>
+              <h3 class="p-1 text-2xl">MacOS x64</h3>
               <a href="<?php echo $downloadMacDmg; ?>">
                 <span class="download">.dmg</span>
               </a>
@@ -216,7 +216,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <a href="<?php echo $downloadDebArm64; ?>">
                 <span class="download">.deb (arm64)</span>
               </a>
-              <a href="<?php echo $downloadDebArm64; ?>">
+              <a href="<?php echo $downloadDebArm32; ?>">
                 <span class="download">.deb (armv7l)</span>
               </a>
             </div>
@@ -227,7 +227,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-fedora text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h2 class="p-1 text-2xl">Fedora / RedHat x64</h2>
+              <h3 class="p-1 text-2xl">Fedora / RedHat x64</h3>
               <a href="<?php echo $downloadRpmx64; ?>">
                 <span class="download">.rpm (x64)</span>
               </a>
@@ -242,7 +242,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-dropbox text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h2 class="p-1 text-2xl">Flatpak / AppImage</h2>
+              <h3 class="p-1 text-2xl">Flatpak / AppImage</h3>
               <a href="https://flathub.org/apps/details/io.freetubeapp.FreeTube">
                 <span class="download">Flathub</span>
               </a>
@@ -257,7 +257,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-linux text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h2 class="p-1 text-2xl">Other Linux Distributions</h2>
+              <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
               <a href="https://aur.archlinux.org/packages/freetube-bin/">
                 <span class="download">Arch User Repository</span>
               </a>
