@@ -1,4 +1,3 @@
 'PR: waiting for review':
-  - '*'  
-  - '.github/**/*'
-  - 'src/**/*'
+- changed-files:
+  - any-glob-to-any-file: '**'
