@@ -22,7 +22,7 @@
             <i class="fas fa-donate icon"></i>
           </a>
         </nav>
-        <p class="mt-3">Copyright &copy; FreeTube 2023</p>
+        <p class="mt-3">Copyright &copy; FreeTube 2024</p>
       </div>
     </div>
   </footer><!-- /footer -->
