@@ -18,9 +18,6 @@
           <a href='https://docs.freetubeapp.io' title="Documentation" aria-label="Documentation">
             <i class="fas fa-file-alt icon"></i>
           </a>
-          <a href='https://liberapay.com/FreeTube' title="Donate" aria-label="Donate">
-            <i class="fas fa-donate icon"></i>
-          </a>
         </nav>
         <p class="mt-3">Copyright &copy; FreeTube 2024</p>
       </div>
