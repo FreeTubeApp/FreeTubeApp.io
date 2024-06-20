@@ -341,7 +341,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
       </div>
       <div class="container mx-auto px-5">
         <h1 class="text-3xl">Donate</h1>
-        <p>If you like FreeTube, consider supporting the project by donating to:
+        <p>If you like FreeTube, consider supporting the project by donating to:</p>
 
         <div  class="text-primary p-10">
           <a href="bitcoin:1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS">
