@@ -258,9 +258,6 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
-              <a href="https://aur.archlinux.org/packages/freetube-bin/">
-                <span class="download">Arch User Repository</span>
-              </a>
               <a href="<?php echo $downloadLinuxZipx64; ?>">
                 <span class="download">.zip (x64)</span>
               </a>
