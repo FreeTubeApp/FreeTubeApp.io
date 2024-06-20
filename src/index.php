@@ -191,7 +191,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-apple text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">MacOS x64</h3>
+              <h3 class="p-1 text-2xl">macOS x64</h3>
               <a href="<?php echo $downloadMacDmg; ?>">
                 <span class="download">.dmg</span>
               </a>
