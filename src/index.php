@@ -341,17 +341,12 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
       </div>
       <div class="container mx-auto px-5">
         <h1 class="text-3xl">Donate</h1>
-        <p>If you like FreeTube, consider supporting the project by donating on <a class="text-primary" href="https://liberapay.com/FreeTube">Liberapay</a> or by donating to one of the following Cryptocurrency addresses:</p>
+        <p>If you like FreeTube, consider supporting the project by donating to:</p>
 
         <div  class="text-primary p-10">
           <a href="bitcoin:1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS">
             <i class="fab fa-bitcoin text-xl"></i>
             <span class="text-wrap">BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS</span>
-          </a>
-          <span class="my-3 block"></span>
-          <a href="monero:48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB">
-            <i class="fab fa-monero text-xl"></i>
-            <span class="text-wrap">XMR: 48WyAPdjwc6VokeXACxSZCFeKEXBiYPV6GjfvBsfg4CrUJ95LLCQSfpM9pvNKy5GE5H4hNaw99P8RZyzmaU9kb1pD7kzhCB</span>
           </a>
         </div>
       </div>
