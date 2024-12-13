@@ -235,7 +235,7 @@ video { max-width: 100%; height: auto }
 }
 @media (min-width:1024px) {
   .lg\:inline { display: inline }
-  .lg\:w-24 { width: 6rem }
+  .lg\:w-24 { width: 7rem }
   .lg\:w-32 { width: 8rem }
   .lg\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)) }
 }
