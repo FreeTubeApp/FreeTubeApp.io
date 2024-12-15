@@ -196,22 +196,22 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
             <div class="ml-8">
               <h3 class="p-1 text-2xl">macOS</h3>
               <a href="<?php echo $downloadMacDmg; ?>">
-                <span class="download">.dmg</span>
+                <span class="download">.dmg (x64)</span>
               </a>
               <a href="<?php echo $downloadMacZip; ?>">
-                <span class="download">.zip</span>
+                <span class="download">.zip (x64)</span>
               </a>
               <a href="<?php echo $downloadMac7z; ?>">
-                <span class="download">.7z</span>
+                <span class="download">.7z (x64)</span>
               </a>
               <a href="<?php echo $downloadMacArm; ?>">
-                <span class="download">.arm</span>
+                <span class="download">.dmg (arm64)</span>
               </a>
               <a href="<?php echo $downloadMacArmZip; ?>">
-                <span class="download">.zip</span>
+                <span class="download">.zip (arm64)</span>
               </a>
               <a href="<?php echo $downloadMacArm7z; ?>">
-                <span class="download">.7z</span>
+                <span class="download">.7z (arm64)</span>
               </a>
             </div>
           </div>
