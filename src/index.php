@@ -18,6 +18,9 @@ $downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm"
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.dmg";
 $downloadMacZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.zip";
 $downloadMac7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.7z";
+$downloadMacArm = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-arm64.dmg";
+$downloadMacArmZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-arm64.zip";
+$downloadMacArm7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-arm64.7z";
 $downloadWin7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.7z";
 $downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
 $downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.exe";
@@ -191,7 +194,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-apple text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">macOS x64</h3>
+              <h3 class="p-1 text-2xl">macOS</h3>
               <a href="<?php echo $downloadMacDmg; ?>">
                 <span class="download">.dmg</span>
               </a>
@@ -199,6 +202,15 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
                 <span class="download">.zip</span>
               </a>
               <a href="<?php echo $downloadMac7z; ?>">
+                <span class="download">.7z</span>
+              </a>
+              <a href="<?php echo $downloadMacArm; ?>">
+                <span class="download">.arm</span>
+              </a>
+              <a href="<?php echo $downloadMacArmZip; ?>">
+                <span class="download">.zip</span>
+              </a>
+              <a href="<?php echo $downloadMacArm7z; ?>">
                 <span class="download">.7z</span>
               </a>
             </div>
