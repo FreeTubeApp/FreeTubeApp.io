@@ -9,7 +9,9 @@ $versionNumber = '0.22.1';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
-$downloadAppImage = $baseUrl.$fullTagName."/FreeTube_".$versionNumber."_amd64.AppImage";
+$downloadAppImagex64 = $baseUrl.$fullTagName."/FreeTube_".$versionNumber."_amd64.AppImage";
+$downloadAppImageArm32 = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-armv7l.AppImage";
+$downloadAppImageArm64 = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-arm64.AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb";
 $downloadDebArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb";
 $downloadDebArm32 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_armv7l.deb";
@@ -24,15 +26,21 @@ $downloadMacArm7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-arm6
 $downloadWin7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.7z";
 $downloadWinZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.zip";
 $downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.exe";
+$downloadWinPortableExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-x64-portable.exe";
 $downloadWinArm7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.7z";
 $downloadWinArmZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.zip";
 $downloadWinArmExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-arm64.exe";
+$downloadWinArmPortableExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.exe";
 $downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
 $downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.7z";
 $downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
 $downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.7z";
 $downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.zip";
 $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.7z";
+$downloadAlpineLinuxApkx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-amd64.apk";
+$downloadAlpineLinuxApkArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-armv7l.apk";
+$downloadAlpineLinuxApkArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-arm64.apk";
+$downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.pacman";
 ?>
 
   <main class="mt-24">
@@ -171,6 +179,9 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <a href="<?php echo $downloadWinExe; ?>">
                 <span class="download">.exe (x64)</span>
               </a>
+              <a href="<?php echo $downloadWinPortableExe; ?>">
+                <span class="download">.exe (x64 Portable)</span>
+              </a>
               <a href="<?php echo $downloadWinZip; ?>">
                 <span class="download">.zip (x64)</span>
               </a>
@@ -179,6 +190,9 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               </a>
               <a href="<?php echo $downloadWinArmExe; ?>">
                 <span class="download">.exe (arm64)</span>
+              </a>
+              <a href="<?php echo $downloadWinArmPortableExe; ?>">
+                <span class="download">.exe (arm64 Portable)</span>
               </a>
               <a href="<?php echo $downloadWinArmZip; ?>">
                 <span class="download">.zip (arm64)</span>
@@ -239,7 +253,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <i class="fab fa-fedora text-6xl"></i>
             </div>
             <div class="ml-8">
-              <h3 class="p-1 text-2xl">Fedora / RedHat x64</h3>
+              <h3 class="p-1 text-2xl">Fedora / RedHat</h3>
               <a href="<?php echo $downloadRpmx64; ?>">
                 <span class="download">.rpm (x64)</span>
               </a>
@@ -258,8 +272,14 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
               <a href="https://flathub.org/apps/details/io.freetubeapp.FreeTube">
                 <span class="download">Flathub</span>
               </a>
-              <a href="<?php echo $downloadAppImage; ?>">
-                <span class="download">AppImage</span>
+              <a href="<?php echo $downloadAppImagex64; ?>">
+                <span class="download">AppImage (x64)</span>
+              </a>
+              <a href="<?php echo $downloadAppImageArm32; ?>">
+                <span class="download">AppImage (armv7l)</span>
+              </a>
+              <a href="<?php echo $downloadAppImageArm64; ?>">
+                <span class="download">AppImage (arm64)</span>
               </a>
             </div>
           </div>
@@ -270,6 +290,18 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
+              <a href="<?php echo $downloadAlpineLinuxApkx64; ?>">
+                <span class="download">.apk (x64)</span>
+              </a>
+              <a href="<?php echo $downloadAlpineLinuxApkArm32; ?>">
+                <span class="download">.apk (armv7l)</span>
+              </a>
+              <a href="<?php echo $downloadAlpineLinuxApkArm64; ?>">
+                <span class="download">.apk (arm64)</span>
+              </a>
+              <a href="<?php echo $downloadPacmanx64; ?>">
+                <span class="download">.pacman (x64)</span>
+              </a>
               <a href="<?php echo $downloadLinuxZipx64; ?>">
                 <span class="download">.zip (x64)</span>
               </a>
