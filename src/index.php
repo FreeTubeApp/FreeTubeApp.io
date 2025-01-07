@@ -317,7 +317,7 @@ $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linu
           <span class="my-3 block"></span>
           <a href="https://github.com/FreeTubeApp/FreeTube/releases">
             <i class="fas fa-clipboard-list text-xl"></i>
-            <span class="ml-6">Release Changlog</span>
+            <span class="ml-6">Release Changelog</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://hosted.weblate.org/engage/free-tube/">
