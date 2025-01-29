@@ -9,12 +9,12 @@ $versionNumber = '0.22.1';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
-$downloadAppImage = $baseUrl.$fullTagName."/FreeTube_".$versionNumber."_amd64.AppImage";
+$downloadAppImage = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-amd64.AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb";
 $downloadDebArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb";
 $downloadDebArm32 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_armv7l.deb";
-$downloadRpmArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm";
-$downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm";
+$downloadRpmArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".arm64.rpm";
+$downloadRpmx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".amd64.rpm";
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.dmg";
 $downloadMacZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.zip";
 $downloadMac7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.7z";
@@ -24,12 +24,12 @@ $downloadWinExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-x64.
 $downloadWinArm7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.7z";
 $downloadWinArmZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.zip";
 $downloadWinArmExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-arm64.exe";
-$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
-$downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.7z";
-$downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
-$downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.7z";
-$downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.zip";
-$downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.7z";
+$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-x64-portable.zip";
+$downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-x64-portable.7z";
+$downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-arm64-portable.zip";
+$downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-arm64-portable.7z";
+$downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.zip";
+$downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.7z";
 ?>
 
   <main class="mt-24">
