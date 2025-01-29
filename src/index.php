@@ -9,14 +9,14 @@ $versionNumber = '0.22.1';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
-$downloadAppImagex64 = $baseUrl.$fullTagName."/FreeTube_".$versionNumber."_amd64.AppImage";
+$downloadAppImagex64 = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-amd64.AppImage";
 $downloadAppImageArm32 = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-armv7l.AppImage";
 $downloadAppImageArm64 = $baseUrl.$fullTagName."/FreeTube-".$versionNumber."-arm64.AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.deb";
 $downloadDebArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.deb";
 $downloadDebArm32 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_armv7l.deb";
-$downloadRpmArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_arm64.rpm";
-$downloadRpmx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_amd64.rpm";
+$downloadRpmArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".arm64.rpm";
+$downloadRpmx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber.".amd64.rpm";
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.dmg";
 $downloadMacZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.zip";
 $downloadMac7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-mac-x64.7z";
@@ -31,12 +31,12 @@ $downloadWinArm7z = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm6
 $downloadWinArmZip = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.zip";
 $downloadWinArmExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-setup-arm64.exe";
 $downloadWinArmPortableExe = $baseUrl.$fullTagName."/freetube-".$versionNumber."-win-arm64-portable.exe";
-$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.zip";
-$downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-x64.7z";
-$downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.zip";
-$downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-arm64.7z";
-$downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.zip";
-$downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-portable-armv7l.7z";
+$downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-x64-portable.zip";
+$downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-x64-portable.7z";
+$downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-arm64-portable.zip";
+$downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-arm64-portable.7z";
+$downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.zip";
+$downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.7z";
 $downloadAlpineLinuxApkx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-amd64.apk";
 $downloadAlpineLinuxApkArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-armv7l.apk";
 $downloadAlpineLinuxApkArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-arm64.apk";
@@ -56,7 +56,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
     <section class="w-full mt-24 bg-secondary text-gray-200">
       <div class="container mx-auto py-16 px-5">
         <h1 class="text-4xl">What is FreeTube?</h1>
-        <p class="pt-5 leading-8 text-gray-200 tracking-wide">FreeTube is a YouTube client for Windows (10 and later), Mac (macOS 10.15 and later), and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
+        <p class="pt-5 leading-8 text-gray-200 tracking-wide">FreeTube is a YouTube client for Windows (10 and later), Mac (macOS 11 and later), and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
       </div>
     </section>
 
@@ -361,7 +361,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           <span class="my-3 block"></span>
           <a href="https://github.com/FreeTubeApp/FreeTube/releases">
             <i class="fas fa-clipboard-list text-xl"></i>
-            <span class="ml-6">Release Changlog</span>
+            <span class="ml-6">Release Changelog</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://hosted.weblate.org/engage/free-tube/">

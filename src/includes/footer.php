@@ -19,7 +19,7 @@
             <i class="fas fa-file-alt icon"></i>
           </a>
         </nav>
-        <p class="mt-3">Copyright &copy; FreeTube 2024</p>
+        <p class="mt-3">Copyright &copy; FreeTube 2025</p>
       </div>
     </div>
   </footer><!-- /footer -->
