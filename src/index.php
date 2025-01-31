@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.22.1 Beta';
+$currentRelease = 'Release 0.23.0 Beta';
 
-$fullTagName = 'v0.22.1-beta';
+$fullTagName = 'v0.23.0-beta';
 
-$versionNumber = '0.22.1';
+$versionNumber = '0.23.0';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
@@ -37,9 +37,6 @@ $downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-lin
 $downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-arm64-portable.7z";
 $downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.zip";
 $downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-linux-armv7l-portable.7z";
-$downloadAlpineLinuxApkx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-amd64.apk";
-$downloadAlpineLinuxApkArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-armv7l.apk";
-$downloadAlpineLinuxApkArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-alpine-arm64.apk";
 $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.pacman";
 ?>
 
@@ -290,15 +287,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
-              <a href="<?php echo $downloadAlpineLinuxApkx64; ?>">
-                <span class="download">.apk (x64)</span>
-              </a>
-              <a href="<?php echo $downloadAlpineLinuxApkArm32; ?>">
-                <span class="download">.apk (armv7l)</span>
-              </a>
-              <a href="<?php echo $downloadAlpineLinuxApkArm64; ?>">
-                <span class="download">.apk (arm64)</span>
-              </a>
               <a href="<?php echo $downloadPacmanx64; ?>">
                 <span class="download">.pacman (x64)</span>
               </a>
