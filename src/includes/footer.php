@@ -7,16 +7,16 @@
       <div>
         <nav class="flex">
           <a href='https://github.com/FreeTubeApp/FreeTube' title="GitHub Repository" aria-label="GitHub Repository">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github text-4xl"></i>
           </a>
           <a href='https://matrix.to/#/+freetube:matrix.org' title="Chat with Matrix" aria-label="Chat with Matrix">
-            <i class="fa-solid fa-comment"></i>
+            <i class="fa-solid fa-comment text-4xl"></i>
           </a>
           <a href='https://blog.freetubeapp.io' title="Blog" aria-label="Blog">
-            <i class="fa-solid fa-blog"></i>
+            <i class="fa-solid fa-blog text-4xl"></i>
           </a>
           <a href='https://docs.freetubeapp.io' title="Documentation" aria-label="Documentation">
-            <i class="fa-solid fa-file-lines"></i>
+            <i class="fa-solid fa-file-lines text-4xl"></i>
           </a>
         </nav>
         <p class="mt-3">Copyright &copy; FreeTube 2025</p>
