@@ -328,7 +328,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
             <span class="ml-5">FreeTubeApp@protonmail.com</span>
           </a>
           <span class="my-3 block"></span>
-          <a href="https://matrix.to/#/+freetube:matrix.org">
+          <a href="https://matrix.to/#/#freetube:matrix.org">
             <i class="fas fa-comments text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
