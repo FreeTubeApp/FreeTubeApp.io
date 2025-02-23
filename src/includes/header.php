@@ -49,43 +49,43 @@ if (strpos($currentUrl, 'index.php') !== false) {
       <ul class='list-none'>
         <a href='/'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-home'></i>
+            <i class="fa-solid fa-house-chimney"></i>
             <span class='px-2 hidden lg:inline'>Home</span>
           </li>
         </a>
         <a href='<?php echo $downloadUrl; ?>'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-32 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-download'></i>
+            <i class="fa-solid fa-download"></i>
             <span class='px-2 hidden lg:inline'>Download</span>
           </li>
         </a>
         <a href='http://blog.freetubeapp.io'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-rss'></i>
+            <i class="fa-solid fa-rss"></i>
             <span class='px-2 hidden lg:inline'>Blog</span>
           </li>
         </a>
         <a href='/about.php'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-question'></i>
+            <i class="fa-solid fa-question"></i>
             <span class='px-2 hidden lg:inline'>About</span>
           </li>
         </a>
         <a href='/privacy.php'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-user-secret'></i>
+            <i class="fa-solid fa-user-secret"></i>
             <span class='px-2 hidden lg:inline'>Privacy</span>
           </li>
         </a>
         <a class="sourceLink" href='http://source.freetubeapp.io'>
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fab fa-github'></i>
+            <i class="fa-brands fa-github"></i>
             <span class='px-2 hidden lg:inline'>Source</span>
           </li>
         </a>
         <a class="contactLink" href="<?php echo $contactUrl; ?>">
           <li class="inline-block hover:bg-secondary w-12 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class='fas fa-comment'></i>
+            <i class="fa-solid fa-comment"></i>
             <span class='px-2 hidden lg:inline'>Contact</span>
           </li>
         </a>
