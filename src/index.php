@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.23.1 Beta';
+$currentRelease = 'Release 0.23.2 Beta';
 
-$fullTagName = 'v0.23.1-beta';
+$fullTagName = 'v0.23.2-beta';
 
-$versionNumber = '0.23.1';
+$versionNumber = '0.23.2';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
@@ -328,8 +328,8 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
             <span class="ml-5">FreeTubeApp@protonmail.com</span>
           </a>
           <span class="my-3 block"></span>
-          <a href="https://matrix.to/#/+freetube:matrix.org">
-            <i class="fa-solid fa-comments text-xl"></i>
+          <a href="https://matrix.to/#/#freetube:matrix.org">
+            <i class="fas fa-comments text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
           <span class="my-3 block"></span>
