@@ -67,7 +67,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
         <div class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-users text-4xl"></i>
+              <i class="fa-solid fa-users text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Subscriptions</h3>
@@ -76,7 +76,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-database text-4xl"></i>
+              <i class="fa-solid fa-database text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Local Data</h3>
@@ -85,7 +85,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-ban text-4xl"></i>
+              <i class="fa-solid fa-ban text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">No Ads</h3>
@@ -94,7 +94,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-user-secret text-4xl"></i>
+              <i class="fa-solid fa-user-secret text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Private</h3>
@@ -103,7 +103,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-paint-brush text-4xl"></i>
+              <i class="fa-solid fa-paintbrush text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Familiar Design</h3>
@@ -112,7 +112,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fab fa-osi text-4xl"></i>
+              <i class="fa-brands fa-osi text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Open Source</h3>
@@ -121,7 +121,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-file-import text-4xl"></i>
+              <i class="fa-solid fa-file-import text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Import Subscriptions</h3>
@@ -130,7 +130,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-desktop text-4xl"></i>
+              <i class="fa-solid fa-desktop text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Multi Platform</h3>
@@ -139,7 +139,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
           </div>
           <div class="mt-4 flex items-center">
             <div class="rounded-lg bg-primary-accent p-6 w-24 flex justify-center">
-              <i class="fas fa-language text-4xl"></i>
+              <i class="fa-solid fa-language text-4xl"></i>
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Multilingual</h3>
@@ -169,7 +169,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
         <div class="mt-10 text-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-windows text-6xl"></i>
+              <i class="fa-brands fa-windows text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Windows</h3>
@@ -202,7 +202,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-apple text-6xl"></i>
+              <i class="fa-brands fa-apple text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">macOS</h3>
@@ -229,7 +229,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-ubuntu text-6xl"></i>
+              <i class="fa-brands fa-ubuntu text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Ubuntu / Debian</h3>
@@ -247,7 +247,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-fedora text-6xl"></i>
+              <i class="fa-brands fa-fedora text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Fedora / RedHat</h3>
@@ -262,7 +262,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-dropbox text-6xl"></i>
+              <i class="fa-brands fa-dropbox text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Flatpak / AppImage</h3>
@@ -283,7 +283,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
           <div class="flex items-center">
             <div class="rounded-lg p-6 w-24 flex justify-center">
-              <i class="fab fa-linux text-6xl"></i>
+              <i class="fa-brands fa-linux text-6xl"></i>
             </div>
             <div class="ml-8">
               <h3 class="p-1 text-2xl">Other Linux Distributions</h3>
@@ -324,17 +324,17 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
         <p>You can also ask using one of these methods:</p>
         <div class="p-10 text-primary">
           <a href="mailto:freetubeapp@protonmail.com">
-            <i class="fas fa-envelope text-xl"></i>
+            <i class="fa-solid fa-envelope text-xl"></i>
             <span class="ml-5">FreeTubeApp@protonmail.com</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://matrix.to/#/#freetube:matrix.org">
-            <i class="fas fa-comments text-xl"></i>
+            <i class="fa-solid fa-comments text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://fosstodon.org/@FreeTube">
-            <i class="fab fa-mastodon text-xl"></i>
+            <i class="fa-brands fa-mastodon text-xl"></i>
             <span class="ml-6">FreeTube on Mastodon</span>
           </a>
         </div>
@@ -343,27 +343,27 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
         <h1 class="text-3xl">Useful Links</h1>
         <div class="text-primary p-10">
           <a href="https://github.com/FreeTubeApp/FreeTube">
-            <i class="fab fa-github text-xl"></i>
+            <i class="fa-brands fa-github text-xl"></i>
             <span class="ml-5">GitHub</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://github.com/FreeTubeApp/FreeTube/releases">
-            <i class="fas fa-clipboard-list text-xl"></i>
+            <i class="fa-solid fa-clipboard-list text-xl"></i>
             <span class="ml-6">Release Changelog</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://hosted.weblate.org/engage/free-tube/">
-            <i class="fas fa-language text-xl"></i>
+            <i class="fa-solid fa-language text-xl"></i>
             <span class="ml-4">Translate via Weblate</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://docs.freetubeapp.io/">
-            <i class="fas fa-file-alt text-xl"></i>
+            <i class="fa-solid fa-file-lines text-xl"></i>
             <span class="ml-7">Documentation</span>
           </a>
           <span class="my-3 block"></span>
           <a href="https://blog.freetubeapp.io/">
-            <i class="fas fa-blog text-xl"></i>
+            <i class="fa-solid fa-blog text-xl"></i>
             <span class="ml-6">Blog</span>
           </a>
         </div>
@@ -374,7 +374,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
 
         <div  class="text-primary p-10">
           <a href="bitcoin:1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS">
-            <i class="fab fa-bitcoin text-xl"></i>
+            <i class="fa-brands fa-bitcoin text-xl"></i>
             <span class="text-wrap">BTC: 1Lih7Ho5gnxb1CwPD4o59ss78pwo2T91eS</span>
           </a>
         </div>
