@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: SSH Remote and Pull Changes
-      uses: appleboy/ssh-action@v1.2.1
+      uses: appleboy/ssh-action@v1.2.2
       with:
         host: ${{ secrets.SERVER_IP }}
         username: ${{ secrets.SERVER_USER }}
