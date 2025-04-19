@@ -152,7 +152,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
     </section>
 
     <section class="flex justify-center mt-24">
-      <img src="images/FreeTube4.png" class="shadow-2xl" width="80%" alt="Latest Subscriptions user interface" />
+      <img src="images/FreeTube3.png" class="shadow-2xl" width="80%" alt="Settings" />
     </section>
 
     <a name="download"></a>
