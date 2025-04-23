@@ -1,11 +1,11 @@
 <?php
 require 'includes/header.php';
 
-$currentRelease = 'Release 0.23.3 Beta';
+$currentRelease = 'Release 0.23.4 Beta';
 
-$fullTagName = 'v0.23.3-beta';
+$fullTagName = 'v0.23.4-beta';
 
-$versionNumber = '0.23.3';
+$versionNumber = '0.23.4';
 
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
