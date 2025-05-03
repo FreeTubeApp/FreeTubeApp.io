@@ -80,7 +80,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-amd64.p
             </div>
             <div class="ml-10 mr-2">
               <h3 class="text-2xl text-gray-100">Local Data</h3>
-              <p class="text-md text-gray-200">All Subscriptions and History are stored locally</p>
+              <p class="text-md text-gray-200">All Subscriptions, Playlists and History are stored locally</p>
             </div>
           </div>
           <div class="mt-4 flex items-center">
