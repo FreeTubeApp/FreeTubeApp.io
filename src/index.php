@@ -53,7 +53,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
     <section class="w-full mt-24 bg-secondary text-gray-200">
       <div class="container mx-auto py-16 px-5">
         <h1 class="text-4xl">What is FreeTube?</h1>
-        <p class="pt-5 leading-8 text-gray-200 tracking-wide">FreeTube is a YouTube client for Windows (10 and later), Mac (macOS 11 and later), and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
+        <p class="pt-5 leading-8 text-gray-200 tracking-wide">FreeTube is a YouTube client for Windows (10 and later), Mac (macOS 12 and later), and Linux built around using YouTube more privately.  You can enjoy your favorite content and creators without your habits being tracked.  All of your user data is stored locally and never sent or published to the internet.  FreeTube grabs data by scraping the information it needs (with either local methods or by optionally utilizing the Invidious API). With many features similar to YouTube, FreeTube has become one of the best methods to watch YouTube privately on desktop.</p>
       </div>
     </section>
 
