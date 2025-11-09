@@ -216,7 +216,6 @@ video { max-width: 100%; height: auto }
 .text-wrap { word-wrap: break-word; }
 .tracking-wide { letter-spacing: 0.025em }
 .w-10 { width: 2.5rem }
-.w-12 { width: 3rem }
 .w-24 { min-width: 6rem }
 .w-full { width: 100% }
 .gap-5 { grid-gap: 1.25rem; gap: 1.25rem }
