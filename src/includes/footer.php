@@ -19,7 +19,7 @@
             <i class="fa-solid fa-file-lines icon"></i>
           </a>
         </nav>
-        <p class="mt-3">Copyright &copy; FreeTube 2025</p>
+        <p class="mt-3">Copyright &copy; FreeTube 2026</p>
       </div>
     </div>
   </footer><!-- /footer -->
