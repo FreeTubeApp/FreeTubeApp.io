@@ -59,12 +59,6 @@ if (strpos($currentUrl, 'index.php') !== false) {
             <span class='px-2 hidden lg:inline'>Download</span>
           </li>
         </a>
-        <a href='http://blog.freetubeapp.io'>
-          <li class="inline-block hover:bg-secondary w-10 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
-            <i class="fa-solid fa-rss"></i>
-            <span class='px-2 hidden lg:inline'>Blog</span>
-          </li>
-        </a>
         <a href='/about.php'>
           <li class="inline-block hover:bg-secondary w-10 lg:w-24 h-20 leading-20 text-center transition-all easy-in-out duration-200">
             <i class="fa-solid fa-question"></i>

@@ -12,9 +12,6 @@
           <a href="https://matrix.to/#/#freetube:matrix.org" title="Chat with Matrix" aria-label="Chat with Matrix">
             <i class="fa-solid fa-comment icon"></i>
           </a>
-          <a href="https://blog.freetubeapp.io" title="Blog" aria-label="Blog">
-            <i class="fa-solid fa-blog icon"></i>
-          </a>
           <a href="https://docs.freetubeapp.io" title="Documentation" aria-label="Documentation">
             <i class="fa-solid fa-file-lines icon"></i>
           </a>
