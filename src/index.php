@@ -361,11 +361,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
             <i class="fa-solid fa-file-lines text-xl"></i>
             <span class="ml-7">Documentation</span>
           </a>
-          <span class="my-3 block"></span>
-          <a href="https://blog.freetubeapp.io/">
-            <i class="fa-solid fa-blog text-xl"></i>
-            <span class="ml-6">Blog</span>
-          </a>
         </div>
       </div>
       <div class="container mx-auto px-5">
