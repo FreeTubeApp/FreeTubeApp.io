@@ -10,7 +10,7 @@
             <i class="fa-brands fa-github icon"></i>
           </a>
           <a href="https://matrix.to/#/#freetube:matrix.org" title="Chat with Matrix" aria-label="Chat with Matrix">
-            <i class="fa-solid fa-comment icon"></i>
+            <i class="fa-brands fa-matrix icon"></i>
           </a>
           <a href="https://docs.freetubeapp.io" title="Documentation" aria-label="Documentation">
             <i class="fa-solid fa-file-lines icon"></i>
