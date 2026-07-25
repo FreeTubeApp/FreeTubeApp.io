@@ -323,10 +323,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
         <p>Please make a thread on our <a class="text-primary" href="https://github.com/FreeTubeApp/FreeTube/issues">GitHub</a> page so we can track it.</p>
         <p>You can also ask using one of these methods:</p>
         <div class="p-10 text-primary">
-          <a href="mailto:freetubeapp@protonmail.com">
-            <i class="fa-solid fa-envelope text-xl"></i>
-            <span class="ml-5">FreeTubeApp@protonmail.com</span>
-          </a>
           <span class="my-3 block"></span>
           <a href="https://matrix.to/#/#freetube:matrix.org">
             <i class="fa-brands fa-matrix text-xl"></i>
