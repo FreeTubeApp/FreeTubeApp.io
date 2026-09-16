@@ -48,8 +48,7 @@ jobs:
           cache: false
 
       - name: Compress SVG Images
-        run: |
-          pnpm dlx svgo -r -f ./src/images -o ./src/images
+        run: pnpm dlx svgo -r -f ./src/images -o ./src/images
         shell: bash
       - name: Compress PNG Images
         run: oxipng -o max --strip safe --recursive ./src/images
