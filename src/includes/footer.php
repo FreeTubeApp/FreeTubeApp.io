@@ -9,7 +9,7 @@
           <a href="https://github.com/FreeTubeApp/FreeTube" title="GitHub Repository" aria-label="GitHub Repository">
             <i class="fa-brands fa-github icon"></i>
           </a>
-          <a href="https://matrix.to/#/#freetube:matrix.org" title="Chat with Matrix" aria-label="Chat with Matrix">
+          <a href="https://matrix.to/#/#freetubeapp:matrix.org" title="Chat with Matrix" aria-label="Chat with Matrix">
             <i class="fa-brands fa-matrix icon"></i>
           </a>
           <a href="https://docs.freetubeapp.io" title="Documentation" aria-label="Documentation">
