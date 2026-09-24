@@ -324,7 +324,7 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
         <p>You can also ask using one of these methods:</p>
         <div class="p-10 text-primary">
           <span class="my-3 block"></span>
-          <a href="https://matrix.to/#/#freetube:matrix.org">
+          <a href="https://matrix.to/#/#freetubeapp:matrix.org">
             <i class="fa-brands fa-matrix text-xl"></i>
             <span class="ml-5">FreeTube on Matrix</span>
           </a>
