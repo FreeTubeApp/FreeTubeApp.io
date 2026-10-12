@@ -10,11 +10,9 @@ $versionNumber = '0.25.3';
 $baseUrl = "https://github.com/FreeTubeApp/FreeTube/releases/download/";
 
 $downloadAppImagex64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-amd64.AppImage";
-$downloadAppImageArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-armv7l.AppImage";
 $downloadAppImageArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-arm64.AppImage";
 $downloadDebx64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_beta_amd64.deb";
 $downloadDebArm64 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_beta_arm64.deb";
-$downloadDebArm32 = $baseUrl.$fullTagName."/freetube_".$versionNumber."_beta_armv7l.deb";
 $downloadRpmArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta.arm64.rpm";
 $downloadRpmx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta.amd64.rpm";
 $downloadMacDmg = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-mac-x64.dmg";
@@ -35,8 +33,6 @@ $downloadLinuxZipx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-
 $downloadLinux7zx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-linux-x64-portable.7z";
 $downloadLinuxZipArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-linux-arm64-portable.zip";
 $downloadLinux7zArm64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-linux-arm64-portable.7z";
-$downloadLinuxZipArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-linux-armv7l-portable.zip";
-$downloadLinux7zArm32 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-linux-armv7l-portable.7z";
 $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-amd64.pacman";
 ?>
 
@@ -239,9 +235,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
               <a href="<?php echo $downloadDebArm64; ?>">
                 <span class="download">.deb (arm64)</span>
               </a>
-              <a href="<?php echo $downloadDebArm32; ?>">
-                <span class="download">.deb (armv7l)</span>
-              </a>
             </div>
           </div>
 
@@ -272,9 +265,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
               <a href="<?php echo $downloadAppImagex64; ?>">
                 <span class="download">AppImage (x64)</span>
               </a>
-              <a href="<?php echo $downloadAppImageArm32; ?>">
-                <span class="download">AppImage (armv7l)</span>
-              </a>
               <a href="<?php echo $downloadAppImageArm64; ?>">
                 <span class="download">AppImage (arm64)</span>
               </a>
@@ -301,12 +291,6 @@ $downloadPacmanx64 = $baseUrl.$fullTagName."/freetube-".$versionNumber."-beta-am
               </a>
               <a href="<?php echo $downloadLinux7zArm64; ?>">
                 <span class="download">.7z (arm64)</span>
-              </a>
-              <a href="<?php echo $downloadLinuxZipArm32; ?>">
-                <span class="download">.zip (armv7l)</span>
-              </a>
-              <a href="<?php echo $downloadLinux7zArm32; ?>">
-                <span class="download">.7z (armv7l)</span>
               </a>
             </div>
           </div>
